@@ -1,0 +1,2472 @@
+/* 
+    Document   : common
+    Created on : Jun 21, 2012, 1:58:03 PM
+    Author     : anhduc
+	Description: purpose of the stylesheet follows.
+*/
+body{
+	background-image:url(../images/a_imuzik_01.png);
+	background-repeat:repeat-x;
+	position:relative
+}
+#top-canvas{
+    width: 100%;
+    height: 113px;
+    background-color: #021226;
+    position: absolute;
+	left:0;	
+    z-index: 1;
+}
+#top-canvas-home{
+    width: 100%;
+    height: 312px;
+    background-color: #021226;
+    position: absolute;
+	left:0;
+    z-index: 1;
+}
+
+#wrapper{
+    width: 980px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+    z-index: 10;
+}
+
+#header{
+    width: 980px;
+    float: left;
+	position:relative;
+	z-index:20;
+}
+
+#top-body{
+    height: 250px;
+    margin-bottom: 5px;
+    width: 980px;
+    float: left;
+	position:relative;	
+	z-index:1;	
+}
+#left-body{
+    width: 642px;
+    margin-bottom: 10px;
+    float: left;
+	position:relative;
+	z-index:1;	
+}
+#right-body{
+    width: 337px;
+    margin-bottom: 10px;
+    float: right;
+	position: relative;
+	z-index: 1;
+}
+
+#footer{
+	margin-top:15px;
+	background:url(../images/imuzik_40.png) bottom repeat-x #106394;
+	float:left;
+	width:100%;
+}
+
+/*----------------------------------------------------write by vietnt-------------------------------------------------------------*/
+html {
+	margin-bottom: 1px;
+	height: 100%;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+}
+
+/*Header*/
+#header .logo {
+	display:block;
+	float:left;
+	width:113px;
+	height:63px;
+	margin:7px 10px 0 0;
+	font-size:11px;
+	}	
+
+#header .box-search {
+	font-family:Tahoma,Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background:url(../images/imuzik_02.png) no-repeat 0 -38px;
+	width:395px;
+	height:38px;
+	margin:17px 18px 0 95px;
+	position:relative;
+	float:left;
+	z-index:3;
+}
+
+#header .box-search .button{
+	float:right;
+	width:39px;
+	height:38px;
+	background:url(../images/imuzik_01.png) no-repeat;	
+}
+
+#header .link-button{
+	display:inline-block;
+	margin:20px 66px 0 0;
+	width:98px;
+	height:32px;
+	vertical-align:top;
+	background:url(../images/imuzik_03.png) no-repeat;	
+}
+
+#header .link-button2{
+	margin:20px 30px 0 0;
+}
+
+#header .box-search .txt-field {
+	width:341px;
+	font-size:14px;
+	padding: 0 5px;
+	height:38px;
+	border:none;
+	line-height:38px;
+	vertical-align:middle;
+	background:url(../images/imuzik_02.png) repeat-x top left;
+	color:#b0b0b0;
+	float:right;
+}
+
+#header .personal-zone{
+	color:#b5b5b5;	
+	margin-top:27px;
+	display:inline-block;
+}
+
+#header .personal-zone .bold{
+	color:#ffe100;	
+	font-size:13px;
+}
+
+#header .personal-zone .ico-register{
+	color:#fff;
+	display:inline-block;
+	background:url(../images/imuzik_04.png) no-repeat 0 -18px;
+	padding-left:22px;
+	padding-right:30px;
+	height:16px;
+	line-height:19px;
+	vertical-align:bottom;
+}
+
+#header .personal-zone .ico-login {
+	color:#fff;
+	display:inline-block;
+	background:url(../images/imuzik_04.png) no-repeat 0 1px;
+	padding-left:22px;
+	height:16px;
+	line-height:19px;
+	vertical-align:bottom;	
+}
+
+#header .box-search .dropdown-box {
+	background:#fff;
+	margin-top:3px;
+	float:left;
+	border:1px solid #fbdb00;	
+	border-top:0;
+	display:none;
+	position:absolute;
+	z-index:10;
+	width:393px;
+	top:33px;	
+}
+
+#header .box-search .dropdown-box a{
+	line-height:normal;
+	padding:5px 0 5px 5px;
+	height:36px;
+	color:#000;
+	cursor:pointer;
+	text-decoration:none;
+	display:block;
+}
+
+#header .box-search .dropdown-box span{
+	color:#666;
+	font-size:12px;
+	/*padding:0 0 0 5px;*/
+}
+
+#header .box-search .dropdown-box strong{
+	color:#0478c5;
+	font-weight:normal;
+}
+
+#header .box-search .dropdown-box h1{
+	background:#98c0df;
+	color:#000000;
+	padding:5px;
+	text-align:left;
+}
+
+.dropdown-box .suggest-singer,.dropdown-box .suggest-album,.dropdown-box .suggest-video,.dropdown-box .suggest-song{
+	float:left;
+	text-align:left;
+	border-top:1px solid #e8e8e8;
+}
+
+.dropdown-box .title-search{
+	background:#3fa0e4;
+	padding:7px 10px;
+	font-weight:bold;
+	color:#fbe96a;
+}
+
+
+.dropdown-box h3{
+	float:left;
+	width:48px;
+	height:30px;
+	text-indent:-9999px;
+	background:#FF0;
+	padding:0;
+}
+
+.dropdown-box h4{
+	float:left;
+	width:345px;
+	padding:15px 0 5px 0;
+}
+
+.dropdown-box h4 span{
+	font-weight:normal;
+	color:#959595;
+}
+
+.dropdown-box .suggest-song h3{
+	background:url(../images/imuzik_61.png) no-repeat center 10px;
+}
+
+.dropdown-box .suggest-singer h3{
+	background:url(../images/imuzik_61_a.png) no-repeat center 10px;
+}
+
+.dropdown-box .suggest-video h3{
+	background:url(../images/imuzik_59.png) no-repeat center 14px;
+}
+
+.dropdown-box .suggest-singer,.dropdown-box .suggest-album{
+	background:#fafafa;
+}
+
+.dropdown-box .suggest-album h3{
+	background:url(../images/imuzik_61a.png) no-repeat center 10px;
+}
+
+.dropdown-box .list{
+	float:left;
+	width:392px;
+	padding-bottom:5px;
+}
+
+.dropdown-box .list li{
+	float:left;
+	width:100%;
+	padding:0 0;
+}
+
+.dropdown-box .active-bg,.dropdown-box .list li:hover{
+	background-color:#b0dcea;
+}
+
+.dropdown-box .ringtone{
+	background-image:url(../images/imuzik_61b.png);
+	background-position:17px 9px;
+	background-repeat:no-repeat;
+}
+
+.dropdown-box .suggest-song a {
+	padding-left:48px !important;
+}
+
+
+.dropdown-box .suggest-singer a:hover,.dropdown-box .suggest-album a:hover,.dropdown-box .suggest-video a:hover,.dropdown-box .suggest-song a:hover,.dropdown-box a.active{
+
+}
+
+.dropdown-box .suggest-singer .images,.dropdown-box .suggest-album .images,.dropdown-box .suggest-video .images,.dropdown-box .suggest-song .images{
+	float:left;
+	width:42px;
+	height:42px;
+	background:url(../images/imuzik_78.png) no-repeat;
+	margin-right:8px;
+}
+
+.dropdown-box .suggest-singer img,.dropdown-box .suggest-album img,.dropdown-box .suggest-video img,.dropdown-box .suggest-song img{
+	margin:0 5px 0 44px;
+	width:36px;
+	height:36px;
+	float:left;
+}
+
+.dropdown-box .suggest-singer .name,.dropdown-box .suggest-album .name,.dropdown-box .suggest-video .name,.dropdown-box .suggest-song .name{
+	float:left;
+	display:block;
+}
+
+.dropdown-box .suggest-song .name{
+	width:195px;
+	line-height:18px;
+}
+
+
+/*suggets video*/
+.dropdown-box .suggest-video .images{
+	width:69px;
+	height:42px;
+	background:url(../images/imuzik_79.png) no-repeat;
+}
+
+.dropdown-box .suggest-video img{
+	width:63px;
+	height:36px;
+}
+
+/*menu-bar*/
+#header .menu-bar {
+	height:49px;
+	width:997px;
+	float:left;
+	position:relative;
+	z-index:2;
+	background:url(../images/imuzik_12.png) repeat-x bottom;
+	}
+	
+#header .menu-bar .ico-upload{
+	float:right;
+	height:32px;
+	width:120px;
+	display:block;
+	margin-top:9px;
+	background:url(../images/imuzik_11.png) no-repeat 0 0;
+	}	
+	
+#header .menu-bar ul{
+	}
+
+#header .menu-bar .item-menu-bar{
+	float:left;
+	text-align:center;
+	border-bottom:1px solid #fbdb00;
+	border-top:4px solid #fbdb00;
+	padding:6px 8px 4px;	
+	height:31px;
+	margin-top:3px;
+	}
+	#header .menu-bar .item-menu-bar2{
+	float:left;
+	text-align:center;
+	border-bottom:1px solid #fbdb00;
+	border-top:4px solid #fbdb00;
+	padding:6px 13px 4px 13px;	
+	height:33px;
+	}
+	
+#header .menu-bar img{
+	padding:-3px 0 7px;
+	font-size:0;	
+	}	
+			
+#header .menu-bar span{
+	float:left;
+	line-height:33px;
+	vertical-align:middle;	
+	}
+	
+#header .menu-bar .item-menu-bar:hover {
+	background:#e1e1e1;
+	border-top:4px solid #000;
+	border-bottom:1px solid #000;	
+	}
+	#header .menu-bar .item-menu-bar2:hover {
+	}
+				
+#header .menu-bar .item-menu-bar span .link-menu{
+	color:#333333;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-decoration:none;
+	float:left;
+	padding:0 15px 0 0;
+	white-space:nowrap;
+	}
+
+#header .menu-bar .item-menu-bar:hover .link-menu{
+	background:url(../images/imuzik_05.png) no-repeat center right ;
+	}	
+	
+.display_block {
+	display: block !important;
+	}		
+	
+/*sub-menu*/
+#header .menu-bar .sub-menu{
+	background:#FFF;
+	position:absolute;
+	top:47px;
+	left:75px;
+	border:1px solid #e8e8e8;
+	border-top:0;
+	width:428px;
+	overflow:hidden;
+	display: none;
+	}
+	
+#header .menu-bar .sub-menu .rows-sub-menu{
+	width:859px;
+	float:left;
+	}			
+	
+#header .menu-bar .song-list-cols {
+	float:left;
+	width:428px;
+	border-right:1px solid #e8e8e8;
+	overflow:hidden;
+	}	
+	
+#header .menu-bar .song-list-cols h2{
+	background:url(../images/imuzik_47.png) repeat-x;
+	border-top:1px solid #e8e8e8;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	vertical-align:middle;
+	}
+	
+#header .menu-bar .sub-list{
+	background: url(../images/imuzik_43.png) repeat;
+	float:left;
+	width:430px;
+	}
+
+#header .menu-bar .song-list-cols li{
+	border-left:0;
+	border-bottom:0;	
+	padding:1px 0 0 0;
+	background:none;
+	float:left;
+	}
+	
+#header .menu-bar .song-list-cols a{
+	color:#000;
+	width:128px;
+	padding:0 7px;
+	height:29px;
+	line-height:29px;
+	display:block;
+	text-decoration:none;
+	border-right:1px solid #e8e8e8;
+	overflow:hidden;
+	text-align:left;
+	}
+	
+#header .menu-bar .song-list-cols a:hover{
+	color:#333;
+	font-weight:normal;
+	background:#ffe84c;	
+	}	
+	
+/* list cols sub menu of menu bar*/
+#header .menu-bar .item-video{
+	background:url(../images/imuzik_43.png) repeat;
+	width:714px;
+	margin-left:83px;
+	}
+
+#header .menu-bar .item-video .cols-sub-menu-1 {
+	width:456px;
+	min-height:120px;
+	}
+	
+#header .menu-bar .item-video .cols-sub-menu-2 {
+	width:260px;
+	min-height:120px;
+	}
+	
+#header .menu-bar .item-video .cols-sub-menu-2 ul{
+	width:260px;
+	}
+	
+#header .menu-bar .item-video .cols-sub-menu-2 ul li{
+	width:258px;
+	}				
+		
+#header .menu-bar .item-video .cols-sub-menu-1 .sub-list{
+	width:459px;
+	min-height:120px;
+	}	
+
+#header .menu-bar .item-video a{
+	width:auto;
+	}
+	
+
+#header .menu-bar .item-video li{
+	height:29px;
+	background:none;
+	width:153px;
+	}
+	
+/*artists*/		
+#header .menu-bar .item-artists{
+	background:url(../images/imuzik_43.png) repeat;
+	width:456px;
+	margin-left:170px;
+	}
+
+#header .menu-bar .item-artists .cols-sub-menu-1 {
+	width:456px;
+	min-height:120px;
+	}	
+		
+#header .menu-bar .item-artists .cols-sub-menu-1 .sub-list{
+	width:459px;
+	min-height:120px;
+	}	
+
+#header .menu-bar .item-artists a{
+	width:auto;
+	}
+	
+#header .menu-bar .item-artists li{
+	height:29px;
+	background:none;
+	width:153px;
+	}
+
+/*billboard*/
+#header .menu-bar .item-bill-board{
+	background:url(../images/imuzik_43.png) repeat;
+	width:278px;
+	margin-left:273px;
+	}
+
+#header .menu-bar .item-bill-board .cols-sub-menu-1 {
+	width:139px;
+	}	
+		
+#header .menu-bar .item-bill-board .cols-sub-menu-1 .sub-list{
+	width:139px;
+	}	
+
+#header .menu-bar .item-bill-board a{
+	width:auto;
+	}
+	
+#header .menu-bar .item-bill-board li{
+	height:29px;
+	background:none;
+	width:145px;
+	}
+	
+/*event*/	
+#header .menu-bar .item-event{
+	background:url(../images/imuzik_43.png) repeat;
+	width:243px;
+	margin-left:612px;
+	}
+
+#header .menu-bar .item-event .cols-sub-menu-1 {
+	width:250px;
+	}	
+		
+#header .menu-bar .item-event .cols-sub-menu-1 .sub-list{
+	width:250px;
+	}	
+
+#header .menu-bar .item-event a{
+	width:auto;
+	}
+	
+#header .menu-bar .item-event li{
+	height:29px;
+	background:none;
+	width:250px;
+	}	
+
+/*personal*/
+#header .menu-bar .item-personal{
+	background:url(../images/imuzik_43.png) repeat;
+	width:583px;
+	left:488px;
+	}
+
+#header .menu-bar .item-personal a{
+	width:auto;
+	}
+	
+#header .menu-bar .item-personal li{
+	height:29px;
+	background:none;
+	}	
+
+#header .menu-bar .item-personal .cols-sub-menu-1 .sub-list{
+	width:274px;
+	min-height:120px;
+	}
+
+#header .menu-bar .item-personal .cols-sub-menu-1{
+	width:272px;
+	}
+	
+#header .menu-bar .item-personal .cols-sub-menu-2{
+	width:242px;
+	}
+	
+#header .menu-bar .item-personal .cols-sub-menu-3{
+	width:178px;
+	}
+	
+#header .menu-bar .item-personal .cols-sub-menu-4{
+	width:160px;
+	}
+
+#header .menu-bar .item-personal .cols-sub-menu-1 li{
+	width:137px;
+	}	
+
+#header .menu-bar .item-personal .cols-sub-menu-2 .sub-list{
+	width:244px;
+	}
+
+#header .menu-bar .item-personal .cols-sub-menu-2 li{
+	width:244px;
+	}	
+	
+#header .menu-bar .item-personal .cols-sub-menu-3 .sub-list{
+	width:180px;
+	}
+
+#header .menu-bar .item-personal .cols-sub-menu-3 li{
+	width:180px;
+	}
+	
+#header .menu-bar .item-personal .cols-sub-menu-4 .sub-list{
+	width:162px;
+	}
+
+#header .menu-bar .item-personal .cols-sub-menu-4 li{
+	width:162px;
+	}				
+/* list cols sub menu of menu bar*/
+
+/*breaking-news*/
+#header .breaking-news {
+	height:20px;
+	padding:7px 0 14px;
+	color:#fff;
+	float:left;
+	width:100%;
+	position:relative;
+	}
+	
+#header .breaking-news .news {
+	color:#333;
+	float:left;
+	width:750px;
+	padding-top:5px;
+	line-height:normal;
+	}
+	
+#header .breaking-news .news a{
+	color:#0478c5;
+	}
+
+/*Footer*/
+.footer {
+	margin:0 auto;
+	width:980px;
+	padding:10px 0 5px 0;
+	}	
+	
+.footer .item-footer{
+	width:220px;
+	float:left;
+	margin:0 11px;
+	overflow:hidden;
+	padding-bottom:10px;
+	}	
+	
+.footer .item-footer h3{
+	line-height:18px;
+	color:#ffe100;
+	border-bottom:1px solid #ffe100;
+	text-transform:uppercase;
+	padding:10px 0 7px 0;
+	margin-bottom:5px;
+	}
+	
+.footer .item-footer li{
+	padding:10px 0;
+	list-style:square inside;
+	color:#1a1a1a;
+	line-height:normal;
+	}
+	
+.footer .item-footer .social li{
+	margin-top:8px;
+	padding:5px 0 7px 40px;
+	background:url(../images/imuzik_42.png) no-repeat 0 0;
+	list-style:none;
+	}
+	
+.footer .item-footer .social .t{
+	background:url(../images/imuzik_42.png) no-repeat 0 -28px;
+	}
+	
+.footer .item-footer .social .y{
+	background:url(../images/imuzik_42.png) no-repeat 0 -56px;
+	}
+	
+.footer .item-footer .social .f{
+	background:url(../images/imuzik_42.png) no-repeat 0 -84px;
+	}		
+
+.footer .item-footer li a{
+	color:#fff;
+	}
+	
+.footer .last-item{
+	width:310px;
+	}
+
+.footer .last-item li{
+	width:155px;
+	float:left;
+	}							
+
+	
+.footer .text-copyright {
+	color:#b5b5b5;
+	margin:0 9px;
+	padding:8px 0;
+	float:left;
+	width:980px;
+	font-size:11px;	
+	}
+	
+.footer .text-copyright a{
+	color:#fff;
+	}
+
+/*colletion button*/	
+.button-blue {
+	background:url(../images/imuzik_87.png) repeat-x left top;
+	display:inline-block;
+	float:left;
+	height:26px;
+	line-height:26px;
+	vertical-align:middle;	
+	color:#FFFFFF;
+	text-decoration:none !important;
+	font-weight:bold;	
+	}
+	
+.button-blue .left-edge{
+	background:url(../images/imuzik_88.png) 0 0;
+	float:left;
+	display:inline-block;
+	width:5px;
+	height:26px;
+	}
+	
+.button-blue .right-edge{
+	background:url(../images/imuzik_88.png) -5px 0;
+	display:inline-block;
+	width:5px;
+	height:26px;	
+	float:right;
+	}	
+	
+.button-blue:hover {
+	background:url(../images/imuzik_87.png) repeat-x left -26px;
+	}
+	
+.button-blue:hover .left-edge{
+	background:url(../images/imuzik_88.png) 0 -26px;
+	}
+	
+.button-blue:hover .right-edge{
+	background:url(../images/imuzik_88.png) -5px -26px;
+	}	
+
+.button-blue input {
+	 background: transparent; 
+	 line-height:normal;
+	 border: 0px; 
+	 display:inline-block;
+	 color: #fff;
+	 padding: 1px 2px 0px 0px;
+	 cursor: pointer;
+	 font-weight:bold;
+	 font-size:12px;
+	 font-family:Tahoma, Geneva, sans-serif;
+	 }
+
+/*colletion icon*/	
+.lnk-store {
+	background:url(../images/imuzik_05.png) no-repeat right 11px;
+	padding-right:15px;
+	line-height:25px;	
+	display:inline-block;
+	color:#333;
+	}
+	
+.lnk-upload {
+	background:url(../images/imuzik_04.png) no-repeat 0 2px;
+	padding-left:25px;
+	line-height:25px;
+	display:inline-block;
+	margin-left:30px;
+	color:#0397e8;	
+	}
+	
+.icon-1 {
+	background:url(../images/imuzik_08.png) no-repeat 0 0;
+	width:23px;
+	height:23px;	
+	margin-left:5px;
+	display:inline-block;
+	}	
+	
+.icon-2 {
+	background:url(../images/imuzik_06.png) no-repeat 0 0;
+	width:23px;
+	height:23px;	
+	margin-left:5px;
+	display:inline-block;
+	}
+	
+.icon-3 {
+	background:url(../images/imuzik_07.png) no-repeat 0 0;
+	width:23px;
+	height:23px;	
+	margin-left:5px;
+	display:inline-block;
+	}
+	
+.icon-4 {
+	background:url(../images/imuzik_09.png) no-repeat 0 0;
+	width:23px;
+	height:23px;	
+	margin-left:5px;
+	display:inline-block;
+	}		
+	
+.more-song-down{
+	display:block;
+	width:24px;
+	height:9px;
+	margin:0 auto;
+	background:url(../images/imuzik_10.png) 0 -9px;
+	}
+	
+.more-song-up{
+	display:block;
+	width:24px;
+	height:9px;
+	margin:0 auto;
+	background:url(../images/imuzik_10.png) 0 0;
+	}
+	
+.icon-i{
+	padding-left:27px;
+	background:url(../images/imuzik_11.png) 0 0 no-repeat;
+	}				
+
+.icon-warning{
+	padding-left:25px;
+	line-height:16px;
+	background:url(../images/imuzik_73.png) 0 0 no-repeat;
+	}				
+				
+.icon-5 {
+	background:url(../images/imuzik_13.html) no-repeat top center;
+	}
+	
+.icon-6 {
+	background:url(../images/imuzik_14.html) no-repeat top center;
+	}
+	
+.icon-7 {
+	background:url(../images/imuzik_15.html) no-repeat top center;
+	}
+	
+.icon-8 {
+	background:url(../images/imuzik_16.html) no-repeat top center;
+	}
+	
+.icon-9 {
+	background:url(../images/imuzik_17.html) no-repeat top center;
+	}
+	
+.icon-10 {
+	background:url(../images/imuzik_18.html) no-repeat top center;
+	}
+	
+.icon-play {
+	background:url(../images/imuzik_28.png) no-repeat top center;
+	}
+	
+.icon-play2 {
+	background:url(../images/imuzik_33.png) no-repeat top center;
+	}	
+	
+.icon-stop {
+	background:url(../images/imuzik_34.png) no-repeat top center;
+	}
+	
+.icon-stop2 {
+	background:url(../images/imuzik_48.png) no-repeat top center;
+	}	
+	
+.icon-more {
+	background:url(../images/imuzik_33.png) no-repeat top center;
+	}
+	
+.icon-more-collap {
+	background:url(../images/imuzik_35.png) no-repeat top center;
+	}	
+	
+.icon-mobile {
+	background:url(../images/imuzik_29.png) no-repeat top center;
+	}
+	
+.icon-download {
+	background:url(../images/imuzik_30.png) no-repeat top center;
+	}
+	
+.icon-add {
+	background:url(../images/imuzik_31.png) no-repeat top center;
+	}
+	
+.icon-gift {
+	background:url(../images/imuzik_32.png) no-repeat top center;
+	}
+	
+.icon-gift2 {
+	background:url(../images/imuzik_49.png) no-repeat top center;
+	}
+	
+.icon-mic {
+	background:url(../images/imuzik_67.png) no-repeat top center;
+	}	
+	
+.icon-mobile,.icon-download,.icon-add,.icon-gift,.icon-mic{
+	display:block;
+	float:right;
+	width:16px;
+	height:18px;
+	}	
+	
+.icon-download2 {
+	background:url(../images/imuzik_147.png) no-repeat top center;
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    right: 23px;
+    top: 11px;
+    width: 17px;	
+	}						
+	
+.icon-images {
+	background:url(../images/imuzik_27.png) no-repeat -77px 0;
+	display:inline-block;
+	width:16px;
+	height:13px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-images2 {
+	background:url(../images/imuzik_27.png) no-repeat 0 0;
+	display:inline-block;
+	width:21px;
+	height:16px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-images3 {
+	background:url(../images/imuzik_50.png) no-repeat 0 0;
+	display:inline-block;
+	width:41px;
+	height:32px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-video2 {
+	background:url(../images/imuzik_59.png) no-repeat 0 0;
+	display:inline-block;
+	width:21px;
+	height:14px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-video3 {
+	background:url(../images/imuzik_35.png) no-repeat 0 0;
+	display:inline-block;
+	width:41px;
+	height:26px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-music2 {
+	background:url(../images/imuzik_77.png) no-repeat 0 0;
+	display:inline-block;
+	width:24px;
+	height:28px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-music3 {
+	background:url(../images/imuzik_82.png) no-repeat 0 0;
+	display:inline-block;
+	width:12px;
+	height:15px;
+	vertical-align:sub; #vertical-align:middle;
+	}	
+	
+.icon-tag {
+	background:url(../images/imuzik_80.png) no-repeat 0 0;
+	display:inline-block;
+	width:28px;
+	height:28px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-tag2 {
+	background:url(../images/imuzik_84.png) no-repeat 0 0;
+	display:inline-block;
+	width:14px;
+	height:14px;
+	vertical-align:sub; #vertical-align:middle;
+	}	
+	
+.icon-star2 {
+	background:url(../images/imuzik_81.png) no-repeat 0 0;
+	display:inline-block;
+	width:30px;
+	height:30px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-star3 {
+	background:url(../images/imuzik_85.png) no-repeat 0 0;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	vertical-align:sub; #vertical-align:middle;
+	}					
+	
+.icon-hot {
+	background:url(../images/imuzik_27.png) no-repeat -43px 0;
+	display:inline-block;
+	width:23px;
+	height:13px;
+	vertical-align:sub; #vertical-align:middle;
+	}
+	
+.icon-sale {
+	background:url(../images/imuzik_27.png) no-repeat 0 0;
+	display:inline-block;
+	width:30px;
+	height:13px;
+	vertical-align:sub; #vertical-align:middle;
+	}		
+	
+.icon-gift3 {
+	background:url(../images/imuzik_100.png) no-repeat -28px 0;
+	}
+	
+.icon-ringtone {
+	background:url(../images/imuzik_100.png) no-repeat 0 0;
+	}
+	
+.icon-ringbacktone {
+	background:url(../images/imuzik_100.png) no-repeat -56px 0;
+	}	
+	
+.padding-tab{
+	float:right;
+	width:34px;
+	padding:10px 0;
+	}
+	
+.padding-tab a{
+	background:url(../images/imuzik_24.png) no-repeat;
+	display:block;
+	float:left;
+	width:12px;
+	height:18px;
+	text-indent:-1000px;
+	margin-left:5px;
+	}
+	
+.padding-tab a:hover,.padding-tab .active{
+	background:url(../images/imuzik_24.png) no-repeat left -18px;
+	}	
+	
+.padding-tab .next{
+	background:url(../images/imuzik_24.png) no-repeat -18px -18px;
+	}	
+	
+.padding-tab .next:hover,.padding-tab .next {
+	background:url(../images/imuzik_24.png) no-repeat -18px -18px;
+	}
+
+.icon-hq {
+	background:url(../images/imuzik_52.png) no-repeat 0 0;
+	display:inline-block;
+	width:39px;
+	height:16px;
+	}
+	
+.icon-hot2 {
+	background:url(../images/imuzik_53.png) no-repeat 0 0;
+	display:inline-block;
+	width:39px;
+	height:16px;
+	}
+	
+.icon-sync {
+	background:url(../images/imuzik_54.png) no-repeat 0 0;
+	display:inline-block;
+	width:75px;
+	height:16px;
+	}
+	
+.icon-mp3 {
+	background:url(../images/imuzik_56.png) no-repeat 0 0;
+	display:inline-block;
+	width:75px;
+	height:16px;
+	}	
+	
+.icon-bill-board{
+    background:url(../images/imuzik_44b.png) no-repeat 0 -1px;
+    padding-left: 30px;
+}
+
+.icon-topic{
+    background:url(../images/imuzik_66.png) no-repeat 0 0;
+    padding-left: 30px;
+}
+
+.icon-star{
+	background:url(../images/imuzik_41.png) no-repeat 0 -1px;
+	padding-left:30px;
+	}
+	
+.icon-ring-back-tone{
+	background:url(../images/imuzik_46.png) no-repeat 0 6px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+.icon-music{
+	background:url(../images/imuzik_56.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+.icon-disc{
+	background:url(../images/imuzik_55.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+
+	
+.icon-singer{
+	background:url(../images/imuzik_06.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+.icon-people{
+	background:url(../images/imuzik_07.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}	
+	
+.icon-info{
+	background:url(../images/imuzik_09.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+.icon-valise{
+	background:url(../images/imuzik_103.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}
+	
+.icon-calendar{
+	background:url(../images/imuzik_97.png) no-repeat 0 9px;
+	padding-left:30px;
+	display:inline-block;
+	height:40px;
+	}								
+
+.icon-account{
+    background:url(../images/imuzik_73.png) no-repeat 0 center;
+    padding-left: 30px;
+	display:inline-block;
+	height:40px;	
+}
+
+.icon-service{
+    background:url(../images/imuzik_75.png) no-repeat 0 center;
+    padding-left: 30px;
+	display:inline-block;
+	height:40px;	
+}
+
+.icon-question{
+    background:url(../images/imuzik_76.png) no-repeat 0 center;
+    padding-left: 20px;
+	display:inline-block;
+	height:40px;	
+}
+
+
+.overlay-popup {
+	background:url(../images/imuzik_134.png) repeat;
+	position:fixed;
+	height:100%;	
+	width:100%;
+	z-index:100;
+	left:0;
+	}	
+	
+	
+.overlay-popup .popup-width-430px{
+	width:430px;
+	position:relative;
+	margin:50px auto;
+	line-height:20px;
+	}
+	
+.overlay-popup .popup-width-430px .title-popup{
+	background:url(../images/imuzik_63.png) repeat-x bottom #fbdb00;
+	display:block;
+	padding:0 10px 5px 10px;
+	margin:0 5px;
+	color:#000;
+	height:23px;
+	padding-bottom:7px;
+	}
+
+.overlay-popup .popup-width-430px .title-popup a{
+	float:right;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	color:#FFFFFF;
+	line-height:9px;
+	font-size:14px;
+	background:url(../images/imuzik_65.png) no-repeat 0 0;
+	margin-top:4px;
+	}		
+	
+.popup-width-430px .top-popup,.popup-width-430px .bottom-popup{
+	width:420px;
+	margin:0 10px;
+	position:relative;
+	height:10px;
+	font-size:0;
+	line-height:0;
+	background-image:url(../images/imuzik_136.png);
+	background-repeat:repeat-x;
+	background-position: 0 0;
+	}	
+	
+.popup-width-430px .bottom-popup{
+	background-position: 0 -10px;
+	}		
+	
+.popup-width-430px .top-popup .cor-tl,.popup-width-430px .top-popup .cor-tr,.popup-width-430px .bottom-popup .cor-bl,.popup-width-430px .bottom-popup .cor-br {
+	background-image:url(../images/imuzik_135.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	width:10px;
+	height:10px;
+	font-size:0;
+	line-height:0;
+	}	
+	
+.popup-width-430px .top-popup .cor-tl {
+	background-position:0 0;
+	top:0px;
+	left:-10px;
+	}
+	
+.popup-width-430px .top-popup .cor-tr {
+	background-position:-10px 0;
+	top:0px;
+	left:420px;
+	}
+	
+.popup-width-430px .bottom-popup .cor-bl {
+	background-position:0 -10px;
+	top:0px;
+	left:-10px;	
+	}
+		
+.popup-width-430px .bottom-popup .cor-br {
+	background-position:-10px -10px;
+	top:0px;
+	left:420px;		
+	}		
+	
+.popup-width-430px .body-popup{
+	width:440px;
+	background:url(../images/imuzik_96.png) repeat-y;
+	line-height:24px;
+	}
+	
+.popup-width-430px .body-popup .content-popup{
+	width:410px;	
+	margin:0 5px;
+	padding:0 10px;
+	}
+	
+.popup-width-430px .body-popup .content-popup p{
+	padding-top:10px;
+	}
+	
+.popup-width-430px .body-popup .content-popup .text-footer{
+	padding:5px 0;
+	margin-top:10px;
+	display:block;
+	}
+	
+.popup-width-430px .body-popup .content-popup .rows{
+	padding:5px 0;
+	width:100%;
+	}
+	
+.popup-width-430px .body-popup .content-popup .rows-top{
+	padding:10px 0;
+	width:100%;
+	background:url(../images/imuzik_20.png) repeat-x bottom;
+	margin-bottom:10px;
+	}
+
+.popup-width-430px .body-popup .content-popup .rows-top span{
+	color:#cc0000;
+	}	
+	
+.popup-width-430px .body-popup .content-popup .span{
+	display:inline-block;
+	}
+	
+.popup-width-430px .body-popup .content-popup .text-field1{
+	border:1px solid #b5b5b5;
+	width:215px;
+	height:26px;
+	line-height:26px;
+	padding:0 10px;
+	vertical-align:middle;
+	}
+	
+.popup-width-430px .body-popup .content-popup .error{
+	background:#fff3a2;
+	}	
+
+.popup-width-430px .body-popup .content-popup .table-form{
+	padding:12px 0;
+	}
+	
+.popup-width-430px .body-popup .content-popup .table-form h3 a{
+	display:block;
+	background:url(../images/imuzik_146.png) no-repeat  right 0;
+	color:#1766D0;
+	}
+	
+.popup-width-430px .body-popup .content-popup .table-form h3 .active{
+	display:block;
+	background:url(../images/imuzik_146.png) no-repeat  right -29px;
+	}		
+	
+.popup-width-430px .rows-button{
+	background:url(../images/imuzik_72.png) repeat-x;
+	text-align:center;
+	height:46px;
+	margin:0 5px;
+	vertical-align:middle;
+	}
+
+.popup-width-430px .rows-button input{
+	background:url(../images/imuzik_57.png) repeat-x -2px -31px;
+	height:28px;
+	margin:10px 3px;
+	padding:0 40px;
+	vertical-align:middle;
+	color:#333;
+	border:1px solid #cfcfcf;
+	cursor:pointer;
+	font-weight:bold;
+	}
+	
+.popup-width-430px .rows-button p{
+	line-height:50px;
+	}		
+	
+.popup-width-430px .body-popup .content-popup .img{
+	border:1px solid #b5b5b5;
+	height:26px;
+	width:79px;
+	margin-left:5px;
+	vertical-align:middle;	
+	}
+	
+.popup-width-430px .body-popup .content-popup .red{
+	color:#F00;
+	}		
+	
+.popup-width-430px .body-popup .content-popup .cols1{
+	width:127px;
+	}
+	
+.popup-width-430px .body-popup .content-popup .cols3{
+	width:150px;
+	display:inline-block;
+	}
+	
+.popup-width-430px .body-popup .content-popup .cols4{
+	width:170px;
+	display:inline-block;
+	text-align:right;
+	}	
+	
+.popup-width-430px .body-popup .content-popup .size11{
+	padding:0;
+	color:#737373;
+	}						
+	
+.overlay-popup .popup-width-570px{
+	width:570px;
+	position:relative;
+	margin:50px auto;	
+	}
+	
+.overlay-popup .popup-width-570px .title-popup{
+	display:block;
+	padding:0 5px;
+	color:#fff;
+	padding-bottom:7px;
+	background:#1f8ad5;
+	}
+
+.overlay-popup .popup-width-570px .title-popup a{
+	float:right;
+	color:#FFFFFF;
+	line-height:9px;
+	font-size:14px;
+	}		
+	
+.popup-width-570px .top-popup,.popup-width-570px .bottom-popup{
+	width:550px;
+	margin:0 10px;
+	position:relative;
+	height:10px;
+	font-size:0;
+	line-height:0;
+	background-image:url(../images/imuzik_136.png);
+	background-repeat:repeat-x;
+	background-position: 0 0;
+	}	
+	
+.popup-width-570px .bottom-popup{
+	background-position: 0 -10px;
+	}		
+	
+.popup-width-570px .top-popup .cor-tl,.popup-width-570px .top-popup .cor-tr,.popup-width-570px .bottom-popup .cor-bl,.popup-width-570px .bottom-popup .cor-br {
+	background-image:url(../images/imuzik_135.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	width:10px;
+	height:10px;
+	font-size:0;
+	line-height:0;
+	}	
+	
+.popup-width-570px .top-popup .cor-tl {
+	background-position:0 0;
+	top:0px;
+	left:-10px;
+	}
+	
+.popup-width-570px .top-popup .cor-tr {
+	background-position:-10px 0;
+	top:0px;
+	left:550px;	
+	}
+	
+.popup-width-570px .bottom-popup .cor-bl {
+	background-position:0 -10px;
+	top:0px;
+	left:-10px;	
+	}
+		
+.popup-width-570px .bottom-popup .cor-br {
+	background-position:-10px -10px;
+	top:0px;
+	left:550px;		
+	}		
+	
+.popup-width-570px .body-popup{
+	width:560px;
+	background:url(../images/imuzik_96.png) repeat-y -440px 0;
+	padding:0 5px;
+	line-height:18px;
+	}
+	
+.popup-width-570px .body-popup .content-popup{
+	width:550px;	
+	margin:0 5px;
+	}
+	
+.popup-width-570px .body-popup .content-popup p{
+	padding-top:10px;
+	}
+	
+.popup-width-570px .body-popup .content-popup .text-footer{
+	padding:5px 0;
+	margin-top:10px;
+	border-top:1px solid #bfbfbf;
+	display:block;
+	}
+	
+.popup-width-430px .cols1,.popup-width-570px .cols1{
+	display:inline-block;
+	width:135px;
+	}
+	
+.popup-width-430px .textfield,.popup-width-570px .textfield{
+	padding:2px 2px;
+	vertical-align:middle;
+	}		
+	
+/*button-setup*/
+.button-setup{
+	background:url(../images/imuzik_130.png) repeat-x 0 -36px;
+	height:18px;
+	line-height:18px;	
+	vertical-align:middle;
+	color:#fff !important;
+	display:inline-block;
+	text-align:center;
+	margin:0 10px 0 0;
+	text-decoration:none;
+	cursor:pointer;
+	font-weight:bold;
+	}	
+	
+.button-setup .left-edge{
+	background:url(../images/imuzik_130.png) no-repeat 0 0;
+	height:18px;
+	width:5px;
+	float:left;
+	display:inline-block;
+	vertical-align:middle;	
+	}
+
+.button-setup .right-edge{
+	background:url(../images/imuzik_130.png) no-repeat 0 -18px;
+	height:18px;
+	width:5px;
+	float:right;
+	display:inline-block;
+	vertical-align:middle;	
+	}
+	
+.button-setup:hover{
+	background:url(../images/imuzik_131.png) repeat-x 0 -36px;
+	text-decoration:none;
+	}
+	
+.button-setup:hover .left-edge{
+	background:url(../images/imuzik_131.png) no-repeat 0 0;
+	}
+	
+.button-setup:hover .right-edge{
+	background:url(../images/imuzik_131.png) no-repeat 0 -18px;
+	}				
+
+/*comment*/	
+.comment {
+	}
+	
+.comment .title{
+	font-size:12px;
+	padding:10px 0;
+	}
+	
+.comment .form{
+	text-align:right;
+	float:left;
+	padding-bottom:10px;
+	color:#c9c9c9;	
+	}
+
+.comment .form textarea{
+	border:1px solid #cfcfcf;
+	width:628px;
+	height:110px;
+	margin:0 0 10px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	}
+	
+.comment .form .button-blue{
+	width:145px;
+	text-align:center;
+	}	
+	
+	
+.comment .title span{
+	font-weight:normal;
+	color:#6f6f6f;
+	}
+	
+.comment .rows-item{
+	padding:10px 0 15px 0;
+	border-top:1px solid #cfcfcf;
+	width:630px;
+	float:left;
+	overflow:hidden;
+	}
+	
+.comment .rows-item .avatar{
+	width:52px;
+	height:52px;
+	float:left;
+	overflow:hidden;
+	margin-right:10px;
+	display:block;
+	position:relative;
+	}
+	
+.comment .rows-item .avatar span{
+	background:url(../images/imuzik_75.png) no-repeat;
+	width:52px;
+	height:52px;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	}
+	
+.comment .rows-item .avatar img{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:1px;
+	left:1px;
+	z-index:1;
+	}		
+	
+.comment .rows-item .show-comment{
+	width:568px;
+	float:left;
+	overflow:hidden;
+	line-height:18px;
+	}			
+	
+.comment .rows-item h3,.comment .rows-item h3 a{
+	color:#000000;
+	padding-bottom:5px;
+	line-height:normal;
+	}	
+	
+.comment .rows-item h3 span{
+	color:#797979;
+	font-weight:normal;
+	display:inline-block;
+	background:url(../images/imuzik_76.png) no-repeat 0 5px;
+	padding-left:12px;
+	margin-left:20px;
+	font-style:italic;
+	}		
+	
+.comment .view-more{
+	border-top:1px solid #cfcfcf;
+	float:left;
+	width:614px;
+	padding:8px;
+	text-align:center;
+	}
+	
+.comment .view-more a{
+	background:url(../images/imuzik_68.png) no-repeat right -5px;
+	padding-right:10px;
+	display:inline-block;
+	color:#1f97d9;
+	}
+	
+.comment .view-more .collaps{
+	background:url(../images/imuzik_68.png) no-repeat right 2px;
+	padding-right:10px;
+	display:inline-block;
+	color:#1f97d9;
+	}	
+
+/*music-topic*/
+.music-topic {
+    background:#FFF;
+    margin-top:0px;
+    display: inline;
+    float:left;
+	width:248px;
+	overflow:hidden;
+}
+	
+.music-topic .rows-item{
+    margin-top: 0px;
+    float: left;
+	width:250px;
+	margin-top:-1px;
+	border-top:1px dotted #D9D9D9;
+}
+
+.music-topic .rows-item a{
+    float: left;
+    display:block;
+    width:82px;
+    height:86px;
+	overflow:hidden;
+    color:#464646;
+    text-align:center;
+	border-right:1px dotted #D9D9D9;	
+}
+
+.music-topic .rows-item a img{
+    max-width:90px;
+    height:40px;
+    text-align:center;
+	margin:10px 0;
+}
+
+.music-topic .rows-item a span{
+    display:block;
+    width:82px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color:#464646;
+    text-align:center;
+    overflow: hidden;
+	white-space:nowrap;
+}
+
+.music-topic .rows-item a.clr-rborder{
+    margin-right: 0px;
+}
+
+/*music-bill-board*/
+.music-bill-board {
+	background:#FFF;
+	}		
+	
+.music-bill-board .tab .lnk1{
+	width:150px;
+	}
+		
+.music-bill-board .tab a{
+	color:#333;
+	display:inline-block;
+	}
+	
+.music-bill-board .tab .active{
+	color:#333;
+	text-decoration:none;
+	}		
+	
+.music-bill-board .sub-tab{
+	background:url(../images/imuzik_38.png) #ededed bottom repeat-x;
+	height:40px;
+	line-height:39px;
+	vertical-align:middle;
+	color:#222;
+	}
+	
+.music-bill-board .sub-tab .lnk1-a,.music-bill-board .sub-tab .lnk1-b,.music-bill-board .sub-tab .lnk1-c{
+	margin:0;
+	height:40px;
+	width:30px;
+	float:left;
+	width:107px;
+	}
+	
+.music-bill-board .sub-tab a{
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	border-right:1px solid #d9d9d9;
+	}
+	
+.music-bill-board .sub-tab a:hover{
+	font-weight:bold;
+	}	
+	
+.music-bill-board .sub-tab .active-1{
+	font-weight:bold;
+	background:#FFF;	
+	text-decoration:none;
+	}			
+	
+.music-bill-board .sub-tab a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	}				
+	
+.music-bill-board .content{
+	padding:10px 4px;
+	text-align:center;
+	line-height:18px;
+	}
+	
+#tab-1,#tab-2,#sub-tab-1,#sub-tab-2,#sub-tab-3 {
+	display:none;	
+	}
+	
+/*result-poll*/	
+#result-poll {
+	width:410px;
+	padding:0 5px;
+	height:170px;
+	overflow:auto;
+	}
+	
+#result-poll h3{
+	padding:10px 0;
+	}
+	
+#result-poll .rows-poll{
+	width:100%;
+	clear:both;
+	font-size:11px;
+	}
+	
+#result-poll .rows-poll .cols-1,#result-poll .rows-poll .cols-2,#result-poll .rows-poll .cols-3{
+	float:left;
+	padding:5px 0;
+	}
+	
+#result-poll .rows-poll .cols-1 {
+	width:130px;
+	}
+	
+#result-poll .rows-poll .cols-2 {
+	width:190px;
+	padding:5px 5px;
+	}	
+	
+#result-poll .rows-poll .cols-3 {
+	margin-left:5px;
+	text-align:right;
+	width:55px;
+	}		
+	
+.footer-poll {
+	border-top:1px solid #e2e2e2;	
+	clear:both;	
+	color:#a09e9e;
+	font-size:11px;
+	padding:10px 5px 5px 5px;
+	}
+	
+.footer-poll label{
+	float:right;
+	font-size:12px;
+	padding-right:7px;
+	}
+	
+.footer-poll label span{
+	font-weight:bold;
+	color:#167ebf;
+	}				
+
+#result-poll .cols-1,#result-poll .cols-3 {
+	vertical-align:text-bottom;
+	line-height:30px;
+	}
+
+#result-poll .percent-tab {
+	width:100%;
+	background:#e1e1e1;
+	height:4px;
+	margin-top:2px;
+	border-radius:2px;
+	}
+	
+#result-poll .percent-tab .ratio-tab{
+	font-family:Tahoma, Geneva, sans-serif;
+	background:#efd731;
+	font-size:10px;
+	height:4px;
+	line-height:14px;
+	text-align:center;
+	border-radius:2px;	
+	}
+	
+#result-poll .text-percent{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	line-height:14px;
+	text-align:left;
+	}			
+
+.z-1 {
+	z-index:1;
+	}
+	
+.z-2 {
+	z-index:2;
+	}
+	
+.z-3 {
+	z-index:3;
+	}		
+	
+.z-4 {
+	z-index:4;
+	}	
+	
+.z-5 {
+	z-index:5;
+	}	
+	
+/*menu-store*/	
+.menu-store {
+	margin-top:14px;
+	float:right;
+	width:135px;
+	}
+	
+.menu-store .sub-menu2{
+	display:none;
+	}	
+	
+.menu-store:hover .sub-menu2{
+	display: block;
+	}	
+
+	
+.menu-store .top{
+	display:block;
+	width:192px;
+	height:7px;
+	float:left;
+	background:url(../images/imuzik_145.png) repeat-y 0 0;
+	}	
+	
+.menu-store .bottom{
+	display:block;
+	width:192px;
+	height:11px;
+	float:left;	
+	background:url(../images/imuzik_145.png) repeat-y 0 -7px;
+	}		
+	
+.sub-menu-store {
+    float: left;
+    padding: 0 10px;
+    width: 172px;
+	background:url(../images/imuzik_145.png) repeat-y -192px 0;
+	}	
+	
+.sub-menu-store li {
+    background: url("../images/bgr-007.jpg") no-repeat scroll 0 0 transparent;
+    line-height: normal;
+    padding: 7px 0 7px 25px;
+	border-bottom: 1px solid #E1E1E1;
+	}	
+
+.sub-menu-store li a {
+    color: #404040;
+}
+	
+
+.sub-menu-store .store-like {
+    background-position: 0 6px;
+}
+
+
+.sub-menu-store .store-playlist {
+    background-position: 0 -19px;
+}
+
+
+.sub-menu-store .store-album {
+    background-position: 0 -45px;
+}
+
+
+.sub-menu-store .store-video {
+    background-position: 0 -71px;
+}
+
+
+.sub-menu-store .store-playlist2 {
+    background-position: 1px -98px;
+}
+
+
+.sub-menu-store .store-upload {
+    background-position: 0 -124px;
+	border:0;
+}	
+
+/* right boby */
+.rb-container{
+    float: left;
+    position: relative;
+    width: 331px;
+    margin-top: 15px;
+	margin-left: 10px;
+}
+
+.rb-container .rb-inner{
+    float: left;
+    border: 1px solid #d3d3d3;
+    position: relative;
+    width: 325px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.rb-container .tl-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-6.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 100;
+}
+
+.rb-container .tr-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-7.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left:242px;
+    z-index: 100;
+}
+
+.rb-container .br-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-8.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0px;
+    left:242px;
+    z-index: 100;
+}
+.rb-container .bl-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-9.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    z-index: 100;
+}
+
+/*rb-inner h2*/
+.rb-inner h2{
+	background:url(../images/imuzik_38.png) #eee;
+	height:40px;
+	line-height:39px;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;	
+	color:#333333;
+	padding:0 10px;
+}
+.rb-inner h2 .tab a{
+	color:#000000;
+	display:inline-block;
+	}
+
+/* reset*/
+.rb-container .no-bor-top{
+    border-top-style: none;
+}
+
+
+/* left - body */
+.lb-container,.lb-container2{
+    float: left;
+    position: relative;
+    width: 715px;
+    margin: 15px 0 10px 0;
+}
+
+.lb-container .lb-inner{
+    float: left;
+    position: relative;
+    width: 715px;
+    z-index: 10;
+}
+
+.lb-container2 .lb-inner2{
+    float: left;
+    position: relative;
+    width: 713px;
+	border:1px solid #d3d3d3;
+	background:#fff;
+    z-index: 10;
+}
+
+.lb-container .tl-cor,.lb-container2 .tl-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-6.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 100;
+}
+
+.lb-container .tr-cor,.lb-container2 .tr-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-7.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left:707px;
+    z-index: 100;
+}
+
+.lb-container .br-cor,.lb-container2 .br-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-8.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0px;
+    left:707px;
+    z-index: 100;
+}
+
+.lb-container .bl-cor,.lb-container2 .bl-cor{
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-image: url("../images/bgr-9.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    z-index: 100;
+}
+
+/*lb-inner h2*/	
+.lb-inner h2{
+	height:40px;
+	line-height:39px;
+    font-size:18px;
+    font-weight: normal;
+    text-transform: uppercase;	
+	color:#333333;
+}
+
+.lb-inner2 h2 {
+	background: url(../images/imuzik_38.png) #eee;
+	height: 40px;
+	line-height: 39px;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #333333;
+	padding: 0 10px;
+}
+
+.lb-inner h2 span{
+    line-height: 38px;
+    position: relative;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 24px;
+    font-weight:normal;
+}
+
+.lb-inner h2 a{
+	color:#000000;
+	display:inline-block;
+	}
+	
+.lb-inner h2 .text{
+	height:25px;
+	padding:7px 0px 0px 10px;
+	background:url(../images/imuzik_45.png) no-repeat left center;
+	border-bottom:1px dashed #bdbdbd;
+}
+.lb-inner h2 span.l-arrow,.lb-inner h2 span.l-arrow-active{
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    left: 645px;
+    top: 3px;
+    background-image:url(../images/imuzik_24.png);
+	background-position:0 0;	
+    cursor: pointer;
+}
+
+.lb-inner h2 span.l-arrow-active{
+	background-position:0px -32px;	
+}
+
+.lb-inner h2 span.r-arrow,.lb-inner h2 span.r-arrow-active{
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 683px;
+    top:3px;
+    background-image:url(../images/imuzik_24.png);
+	background-position:-34px 0px;
+    cursor: pointer;
+}
+.lb-inner h2 span.r-arrow-active{
+	background-position:-34px -32px;
+}
+
+/* danh sach nghe nhieu */
+.lb-container h2.active-tab, .lb-container h2.active-tab2{
+    border-style:none;
+    height:40px;
+    width: 325px;
+    background-image: url("../images/bgr-17.jpg");
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.lb-container h2.active-tab span, .lb-container h2.active-tab2 span,.lb-container h2.inactive-tab span, .lb-container h2.inactive-tab2 span{
+	cursor:pointer;
+}
+
+
+.lb-container h2.inactive-tab{
+    border-style:none;
+    height:40px;
+    width: 325px;
+    background-image: url("../images/bgr-18.jpg");
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.lb-container h2.active-tab span.tl-tab{
+    display: block;
+    height: 40px;
+    width: 8px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 0px;
+    top:0px;
+    background-image: url("../images/bgr-15.jpg");
+    cursor: pointer;
+}
+
+.lb-container h2.active-tab span.tr-tab{
+    display: block;
+    height: 40px;
+    width: 16px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 309px;
+    top:0px;
+    background-image: url("../images/bgr-16.jpg");
+    cursor: pointer;
+}
+
+.lb-container h2.inactive-tab span.tl-tab{
+    display: block;
+    height: 40px;
+    width: 8px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 0px;
+    top:0px;
+    background-image: url("../images/bgr-13.jpg");
+    cursor: pointer;
+}
+
+.lb-container h2.inactive-tab span.tr-tab{
+    display: block;
+    height: 40px;
+    width: 8px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 317px;
+    top:0px;
+    background-image: url("../images/bgr-14.jpg");
+    cursor: pointer;
+}
+
+.lb-container h2.active-tab2 span.tl-tab{
+    display: block;
+    height: 40px;
+    width: 16px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 0px;
+    top:0px;
+    background-image: url("../images/bgr-19.jpg");
+    cursor: pointer;
+}
+
+.lb-container h2.active-tab2 span.tr-tab{
+    display: block;
+    height: 40px;
+    width: 8px;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 1px;
+    line-height: 1px;
+    left: 317px;
+    top:0px;
+    background-image: url("../images/bgr-20.jpg");
+    cursor: pointer;
+}
+
+/* reset*/
+.lb-container .no-bor-top{
+    border-top-style: none;
+}
+
+/*comming-soon*/
+.comming-soon {
+	background:url(../images/bg_commingsoon.html) no-repeat;
+	width:894px;
+	height:542px;
+	margin:100px auto;
+}
+.comming-soon .btn-accept{
+	background:url(../images/btn_accept.html) no-repeat 0 0;
+	width:191px;
+	height:76px;
+	display:block;
+	margin:400px 60px 0 235px;
+	float:left;
+}
+.comming-soon .btn-cancel{
+	background:url(../images/btn_cancel.html) no-repeat 0 0;
+	width:191px;
+	height:76px;
+	display:block;
+	margin:400px 0 0 0;
+	float:left;
+}
+.comming-soon .btn-accept:hover{
+	background:url(../images/btn_accept.html) no-repeat 0 -76px;
+}
+.comming-soon .btn-cancel:hover{
+	background:url(../images/btn_cancel.html) no-repeat 0 -76px;
+}
+.comming-soon .btn-accept2{
+	background:url(../images/btn_accept2.html) no-repeat 0 0;
+	width:191px;
+	height:76px;
+	display:block;
+	margin:400px 60px 0 235px;
+	float:left;
+}
+.comming-soon .btn-cancel2{
+	background:url(../images/btn_cancel2.html) no-repeat 0 0;
+	width:191px;
+	height:76px;
+	display:block;
+	margin:400px 0 0 0;
+	float:left;
+}
+.comming-soon .btn-accept2:hover{
+	background:url(../images/btn_accept2.html) no-repeat 0 -76px;
+}
+.comming-soon .btn-cancel2:hover{
+	background:url(../images/btn_cancel2.html) no-repeat 0 -76px;
+}
+.list-bill-board .item-bill-board {
+    border-top: 1px dotted rgb(217, 217, 217);
+    float: left;
+    line-height: 18px;
+    padding: 6px 9px 4px;
+    width: 280px;
+}
+.list-bill-board .item-bill-board p {
+    padding-bottom: 2px;
+}
+.list-bill-board .item-bill-board .number {
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    margin-right: 5px;
+    position: relative;
+    text-align: left;
+    width: 25px;
+}
+.list-bill-board .item-bill-board .info-music, .list-bill-board .item-bill-board .info-music a {
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+}

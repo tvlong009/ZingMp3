@@ -1,0 +1,519 @@
+/* CSS Document */
+/*hatt12 them margin-top dung cho chi tiet ca si*/
+.avatar-star{
+  margin-top: 12px;
+  width: 244px;
+  padding: 4px;
+  background: #fff;
+}
+.txt-left {
+  text-align: left;;
+}
+
+.root {
+    display: block;
+}
+.radio_list {
+    display: inline-block;
+}
+.radio_list li {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.module-bill-board .bill-board-highlight {
+    overflow: visible;
+}
+.bill-board-highlight .show_singers {
+    font-size: 11px;
+    height: 20px;
+    padding-top: 5px;
+    color: #ffffff!important;
+}
+.bill-board-highlight .hover_singer {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+}
+.bill-board-highlight .hover_singer {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    left: 40px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 38px;
+    width: 256px;
+    word-wrap: break-word;
+    z-index: 1000;
+}
+.module-bill-board .bill-board-highlight .hover_singer a {
+    color: #000;
+}
+.module-bill-board .list-bill-board-2 .item-bill-board {
+    overflow: visible;
+}
+.list-bill-board-2 .show_singers {
+    font-size: 11px;
+    height: 20px;
+    padding-top: 5px;
+}
+.list-bill-board-2 .hover_singer {
+    background-color: #FFFEE4;;
+    border: 1px solid #FFD427;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+}
+.list-bill-board-2 .hover_singer {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    left: 40px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 55px;
+    width: 256px;
+    word-wrap: break-word;
+    z-index: 1000;
+}
+/*.module-bill-board .list-bill-board-2 .hover_singer a {*/
+    /*color: #FFD427;*/
+/*}*/
+.list-bill-board .first-item {
+    overflow: visible;
+}
+.list-bill-board .first-item .show_singers {
+    font-size: 11px;
+    height: 20px;
+    padding-top: 5px;
+}
+.list-bill-board .first-item .hover_singer {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+}
+.list-bill-board .first-item .hover_singer {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    left: 40px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 115px;
+    width: 256px;
+    word-wrap: break-word;
+    z-index: 1000;
+}
+.list-bill-board .first-item .hover_singer a {
+    color: #000000;
+}
+.list-bill-board .item-bill-board .hover_singer {
+    background: none repeat scroll 0 0 #FFFEE4;
+    border: 1px solid #FFD427;
+    display: none;
+    overflow: auto;
+    position: absolute;
+    width: 300px;
+    word-wrap: break-word;
+    z-index: 999;
+    left: 0px;
+}
+.list-bill-board-2 .item-bill-board .rank_song_hover_singer {
+    background: none repeat scroll 0 0 #FFFEE4;
+    border: 1px solid #FFD427;
+    display: none;
+    left: 199px;
+    margin: 0;
+    overflow: visible;
+    padding: 0 5px;
+    position: absolute;
+    top: 30px;
+    width: 353px;
+    word-wrap: break-word;
+    z-index: 1000;
+}
+.lb-inner .list-bill-board-2 .item-bill-board {
+    overflow: visible;
+}
+.break-word {
+    word-wrap: break-word;
+}
+.hover_singer {
+    display: none;
+}
+
+.hover_singer a{
+    color: #666666;
+}
+.show_singers:hover .hover_singer {
+    display: block;
+}
+.alert-success {
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    color: #468847;
+}
+.alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+.alert {
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.rows-form .text-field-error {
+    border: 1px solid red;
+    color: #8B8B8B;
+    margin-right: 10px;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.table04 .text-field-error {
+    border: 1px solid red;
+    /*color: #8B8B8B;*/
+    margin-right: 10px;
+    padding: 2px;
+    vertical-align: middle;
+}
+.song-list li a .songHomeTitle {
+    text-align: left;
+    width: 163px;
+}
+.top-albums-container .tooltip {
+    background-image: url("../images/imuzik_143.png");
+    border: 1px solid #FFD427;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: auto;
+    line-height: 18px;
+    min-width: 115px;
+    z-index: 99;
+}
+.top-albums-container .tooltip p {
+    background-image: url("../images/imuzik_143.png");
+    padding: 0 5px;
+}
+.top-albums-container #album-thumbs-container .tooltip a.singerNameHome {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.top-albums-container #album-detail-container .tooltip a.singerNameHome {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.top-albums-container #album-thumbs-container .item {
+    overflow: visible;
+    z-index: 2;
+}
+.top-albums-container #album-thumbs-container .item-selected {
+    z-index: 5;
+}
+.search-video .tooltip, .list-item-music-search .tooltip, .album-search .tooltip, .result-album .tooltip, .result-video .tooltip, .playlist-featured .tooltip{
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: auto;
+    line-height: 18px;
+    min-width: 115px;
+    padding: 0 5px;
+    z-index: 1000;
+}
+.search-video .tooltip a, .list-item-music-search .tooltip, .album-search .tooltip, .result-album .tooltip, .result-video .tooltip {
+    color: #000000;
+    font-weight: normal;
+}
+.cols-genres {
+    display: inline-block;
+    width: 245px;
+}
+.fb-container {
+    z-index: -1;
+}
+.show_many_singer_compsong {
+    background-color: #FFFEE4;
+    border: 1px solid #FFD427;
+    margin: 0;
+    overflow: visible;
+    padding: 1px;
+    position: absolute;
+    width: 300px;
+    word-wrap: break-word;
+    z-index: 1000;
+    line-height: 14px;
+}
+.item-help .title_explore {
+    background: url("../images/imuzik_90-2.png") no-repeat scroll 0 7px transparent;
+    color: #1766D0;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.red {
+    color: #FF0000;
+}
+.coderLike{
+    height: 25px;
+    width: 80px;
+    margin: 1px 0 0 2px;
+    float: right;
+}
+
+.classTip{
+    display:none;
+    background-color: #FFFEE4;
+    position: absolute !important;
+    border: 1px solid #FFD427;
+    z-index: 999;
+    word-wrap: break-word;
+    width: inherit;
+    margin-top: -3px;
+    padding: 5px 0;
+    line-height: 18px;
+}
+
+.show-content .classTip {
+    left: 253px;
+    padding: 0 3px;
+    top: 27px;
+    width: 378px;
+}
+.content-per .rows
+{
+  float: none;
+}
+
+.list-item-music-search .rows-item-list a{
+    color: #000000 !important;
+}
+
+.new-button{
+    background: url("../images/imuzik_52.png") repeat scroll right center transparent;
+    display: inline-block;
+    float: right;
+    margin: 0 5px;
+    max-width: 80px;
+}
+.container-news .poll li{
+    padding:4px 0;
+    float: left;
+    clear: both;
+}
+
+.list-music .rows-item-list .item-list .button-more a, .list-music-co-artists .rows-item-list .item-list .button-more a, .list-music-co-singer .rows-item-list .item-list .button-more a{
+    padding: 0!important;
+}
+
+/*.rows-item-list .item-list h3 span:hover  .button-more{*/
+    /*display:block;*/
+/*}*/
+
+.list-music-per .tr-active td .box-tool{
+    display:block;
+}
+
+.list-music-per .tr-active td{
+    background:#fff;
+}
+
+.list-music-per .tr_hover td .box-tool{
+    display:block;
+}
+
+.list-music-per .tr_hover td{
+    background:#fff;
+}
+.song-content .song-list-function .tab5 select {
+    padding: 4px 1px;
+}
+pre.text { display: inline; font-family: inherit; margin: 0; padding: 0; white-space: pre-wrap; word-break: break-all; word-wrap: break-word; border: none; background: transparent;
+}
+
+.rows-form .picktime{
+    width: 33%;
+}
+
+.text-pagehelp{
+    background: url(../images/imuzik_45.png) no-repeat scroll left center transparent;
+    padding: 0 0 0 10px
+}
+
+.popup-regis{
+    /*background: url("../images/imuzik_04.png") no-repeat scroll 0 -18px transparent;*/
+    color: #B5B5B5;
+    display: inline-block;
+    height: 16px;
+    line-height: 19px;
+    padding-left: 0px;
+    vertical-align: bottom;
+}
+
+.player-video{
+    background: #000;
+    width: 716px!important;
+}
+/*thanh cuon trang playlist/album*/
+#scrollbar1 { width: 715px; clear: both;}
+#scrollbar1 .viewport { width: 715px; height: 359px; overflow: hidden; position: absolute; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0 }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #DCDBDB; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; z-index: 1 }
+#scrollbar1 .track {height: 100%; width:6px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 150px; width: 6px; cursor: pointer; overflow: hidden; position: absolute; top: 0;display: none; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+#scrollbar1 .rows-item {width: 705px}
+.song-content .song-list-album {overflow:visible;float:none;width: 712px;max-height: 365px}
+
+/*thanh chay nen trang search RBT - IE HACK*/
+.procces-bar2{height: 68px;z-index: 0;margin-top: -68px;position: relative;float: left;}
+
+.list .buttonImuzikMagicPlayer .icon-play{
+    background: url(../images/imuzik_33.png) no-repeat top center;
+    display: block;float: left;
+    height: 33px;
+    margin: 10px;
+    width: 33px;
+}
+.list .buttonImuzikMagicPlayer .icon-stop{
+    background: url(../images/imuzik_34.png) no-repeat top center;
+    display: block;
+    float: left;
+    height: 33px;
+    margin: 10px;
+    width: 33px;
+}
+
+.button-more-rbt{
+    width: 165px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+.button-more-rbt .button a{
+  background: url("../images/imuzik_53.png") no-repeat left center;
+  color: #666666;
+  display: inline-block;
+  font-size: 11px;
+  height: 23px;
+  line-height: 23px;
+  margin-right: 0;
+  padding: 0 7px;
+}
+
+.button-more-rbt .txt{
+  border: 1px solid #C8C8C8;
+  color: #919191;
+  display: none;
+  float: left;
+  font-size: 11px;
+  height: 21px;
+  line-height: 21px;
+  padding: 0 3px;
+  vertical-align: middle;
+  width: 80px;
+}
+.button-more-rbt .button{
+  background: url("../images/imuzik_52.png") repeat right center;
+  display: inline-block;
+  margin: 0 3px;
+  max-width: 40px;
+}
+
+.list-item-music-search .buttonImuzikMagicPlayer p{
+  padding: 3px 15px;
+}
+.list-item-music-search .buttonImuzikMagicPlayer h3{
+  padding: 2px 15px 4px;
+}
+
+.rbt-result{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px
+}
+.list-item-music-search .rows-item-list .button-more-rbt{
+    background: transparent
+}
+.list-item-music-search .rows-item-list .button-more-rbt .icon-download:hover{
+    background-position:center bottom
+}
+.list-item-music-search .rows-item-list .button-more-rbt .icon-gift:hover{
+    background-position:center bottom
+}
+
+/*CSS cho menu right trang IMS List*/
+.menu-right-ims li {
+  border-top: 1px dotted #D9D9D9;
+  color: #999999;
+  margin-top: -1px;
+  padding: 10px 10px 10px 20px;
+}
+
+.menu-right-ims li:hover, .menu-right-ims li.active, .menu-right-ims li:hover a, .menu-right-ims li.active a {
+  background: none repeat scroll 0 0 #FFE100;
+  color: #000000;
+}
+.menu-right-ims {
+  float: left;
+  line-height: 18px;
+  width: 248px;
+}
+
+.menu-right-ims li {
+  border-top: 1px dotted #D9D9D9;
+  color: #999999;
+  margin-top: -1px;
+  padding: 10px 10px 10px 20px;
+}
+
+.menu-right-ims li a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.category-ims {float: right;
+  padding: 8px 0px;
+  font-size: 13px;
+}
+.category-ims ul li{
+  float: left;
+  background: url("../images/imuzik_57.png") no-repeat scroll right -30px transparent;
+  margin:0 5px 5px 0;
+  height: 30px;
+  width: 138px;
+}
+.category-ims ul li:hover, .category-ims ul li.active{
+  background: url("../images/imuzik_57.png") no-repeat scroll right 0 transparent;
+}
+
+.category-ims ul li a{
+  background: url("../images/imuzik_57.png") no-repeat scroll left -30px transparent;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  height: 24px;
+  width: 136px;
+  margin: 0 2px 0 0;
+  padding-top: 6px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.category-ims ul li a:hover, .category-ims ul li.active a{
+  background: url("../images/imuzik_57.png") no-repeat scroll left 0 transparent;
+  color: #FFF;
+}

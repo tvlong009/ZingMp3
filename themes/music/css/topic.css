@@ -1,0 +1,293 @@
+
+#center {
+    padding-top: 10px;
+}
+#right-body .ringtone-hot {
+    display: inline;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+#right-body .ringtone-hot h3.ringtone-hot-header {
+    color: rgb(69, 69, 69);
+    float: left;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    text-indent: 5px;
+    width: 300px;
+}
+#right-body .ringtone-hot h3.ringtone-hot-header span {
+    color: rgb(194, 2, 85);
+}
+#right-body .ringtone-hot ul.ringtone-hot-list {
+    float: left;
+    width: 300px;
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li.playing a.name-song {
+    color: rgb(217, 0, 114);
+    font-weight: bold;
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-play {
+    background: url("../images/keeng_44.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 19px;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 19px;
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li.playing a.icon-play {
+    background: url("../images/keeng_43.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-play:hover {
+    background: url("../images/keeng_43.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.name-song {
+    display: inline;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    line-height: 26px;
+    margin-left: 10px;
+    width: 235px;
+}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-phone {
+    background: url("../images/keeng_hn_15.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: right;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 7px;
+}
+.control-media2 {
+    background-color: rgb(255, 0, 0);
+    float: left;
+    height: 1px;
+    left: 39px;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    width: 150px;
+}
+#right-body .adv {
+    background: url("../images/keeng_hn_30.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    border-left: 1px solid rgb(184, 184, 184);
+    border-right: 1px solid rgb(184, 184, 184);
+    display: inline;
+    float: left;
+    height: 65px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 298px;
+}
+#right-body .adv a {
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    width: 298px;
+}
+#left-body .album-list-search {
+
+}
+#left-body .album-list-search h3.album-title-header {
+    color: rgb(83, 83, 83);
+    display: inline;
+    font-size: 14px;
+}
+#left-body .album-list-search h3.album-title-header a.link-result {
+    background: url("../images/keeng_42.gif") no-repeat scroll right 3px rgba(0, 0, 0, 0);
+    color: rgb(83, 83, 83);
+    float: left;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding-right: 25px;
+}
+#left-body .album-list-search h3.album-title-header span {
+}
+#left-body .album-list-search .row {
+
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+#left-body .album-list-search .row .item {
+    float: left;
+    line-height: 18px;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 112px;
+}
+#left-body .album-list-search .row .item span.wrap {
+    float: left;
+    height: 112px;
+    width: 112px;
+}
+#left-body .album-list-search .row .item span.wrap a {
+    display: block;
+    float: left;
+    height: 112px;
+    overflow: hidden;
+}
+#left-body .album-list-search .row .item span.wrap a img {
+    border: 0 none;
+}
+#left-body .album-list-search .row .item a.name-song {
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 5px;
+    max-height: 35px;
+    overflow: hidden;
+    width: 112px;
+}
+#left-body .album-list-search .row .item a.name-single {
+    color: rgb(253, 28, 124);
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    max-height: 35px;
+    overflow: hidden;
+    width: 110px;
+}
+#left-body .box-music-search {
+    float: left;
+    margin-bottom: 15px;
+    width: 640px;
+}
+#left-body .box-music-search h3.box-music-header {
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 640px;
+}
+#left-body .box-music-search h3.box-music-header a.link-right {
+    background: url("../images/keeng_48.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: right;
+    height: 19px;
+    width: 19px;
+}
+#left-body .box-music-search .list-bxh {
+    background-color: rgb(250, 250, 250);
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list {
+    float: left;
+    overflow: hidden;
+    width: 640px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .count {
+    float: left;
+    height: 15px;
+    margin-top: 5px;
+    width: 85px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    width: 180px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li.playing .content a.name-song {
+    color: rgb(217, 0, 114);
+    font-weight: bold;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .count a.icon-add {
+    background: url("../images/keeng_46.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    height: 15px;
+    margin-right: 1px;
+    width: 15px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .count span.number {
+    background: url("../images/keeng_81.png") no-repeat scroll right top rgb(251, 112, 172);
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 11px;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 15px 0 5px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li.playing .count a.icon-add {
+    background: url("../images/keeng_45.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .count a.icon-add:hover {
+    background: url("../images/keeng_45.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li.playing .count span.number {
+    background: url("../images/keeng_82.png") no-repeat scroll right top rgb(255, 25, 125);
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content span.logo {
+    float: left;
+    line-height: 20px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content a.icon-ringtone img {
+    margin-top: 2px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content a {
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content a.name-song {
+    color: rgb(0, 0, 0);
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    max-width: 155px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li.playing .content span.name-song {
+    background: url("../images/keeng_hn_15.png") no-repeat scroll right 2px rgba(0, 0, 0, 0);
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li .content a.name-single {
+    color: rgb(114, 114, 114);
+    float: left;
+    font-family: Tahoma;
+    font-size: 11px;
+    height: 15px;
+    line-height: 13px;
+    overflow: hidden;
+    width: 190px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li a.icon-play {
+    background: url("../images/keeng_44.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: inline;
+    float: left;
+    height: 19px;
+    margin-top: 5px;
+    width: 19px;
+}
+#left-body .box-music-search .list-bxh ul.music-hot-list li.playing a.icon-play, #left-body .box-music-search .list-bxh ul.music-hot-list li a.icon-play:hover {
+    background: url("../images/keeng_43.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.ping {
+    color: rgb(229, 43, 146);
+}
+

@@ -1,0 +1,387 @@
+
+#body{overflow:visible}
+.playlist-album-hot a.view-more-album{background: url("../images/keeng_141.png") no-repeat scroll 0 0 transparent;height: 11px;left: 310px;position: relative;top: -15px;  width: 15px;float:left;}
+.playlist-album-hot a.album-next{background: url("../images/keeng_141.png") no-repeat scroll 0 -11px transparent;}
+#album-hot {background: url("../images/keeng_bg_05.png") no-repeat scroll 0 bottom #FFFFFF;float: left;margin-left: 5px;padding-bottom: 23px;padding-top: 10px;position: relative;width: 950px;display:inline;}
+#album-hot .title-album-hot {background: url("../images/keeng_bg_01.png") no-repeat scroll 0px 0px transparent;float: left;height: 220px;margin-left: -10px;position: relative;text-indent: -1000px;width: 42px;z-index: 999;display:inline;}
+#album-hot span.wrap {border: 1px solid #DDDDDD;display: block;float: left;height: 220px;margin-left: 10px;width: 220px;display:inline;}
+#album-hot span.wrap a {border: 6px solid #FFFFFF;display: block;float: left;height: 208px;overflow: hidden;}
+#album-hot span.wrap a img{border:0px;width:208px;min-height:208px;float:left;display:block;}
+.playlist-album-hot{float: left;width: 360px;margin-left:5px;display:inline;}
+.playlist-album-hot h2.name-song{color: #D90073;font-size: 20px;padding-left: 10px;line-height:20px;font-weight:normal;height:22px;overflow:hidden;width:340px;}
+.playlist-album-hot h2.name-song a:hover{color:#F20088;}
+.playlist-album-hot p.name-single{color: #727272;margin-top: 5px;padding-left: 10px;line-height:18px;font-size:11px;display:inline;}
+.playlist-album-hot p.name-single a{color: #727272;font-size:11px;font-family:Tahoma;}
+.playlist-album-hot span.listen-album-hot{color: #727272;font-size:11px;}
+.playlist-album-hot ul.list-song{overflow: hidden;background:#ffffff url(../images/keeng_47.png) repeat top left;_float:left;}
+.playlist-album-hot ul.list-song li{float:left;width:345px;overflow:hidden;height:26px;padding-right:15px;}
+.playlist-album-hot ul.list-song li a.item-hot-song{float: left;line-height: 26px;font-size:13px;font-family:Tahoma;padding: 0 10px 0 10px;color:#000000;max-width:275px;overflow:hidden;}
+.playlist-album-hot ul.list-song li a.icon-ringtone{background:url("../images/keeng_bg_03.png") no-repeat scroll 0 -142px transparent;float: right;height: 12px;margin-top: 6px;width: 7px;}
+.playlist-album-hot ul.list-song li a.icon-video img{display:none;}
+.playlist-album-hot ul.list-song li a.icon-video{background: url("../images/keeng_bg_03.png") no-repeat scroll 0 -132px transparent;float: right;height: 10px;margin-left:10px;display:inline;margin-top: 8px;width: 13px;}
+.playlist-album-hot ul.list-song li a.icon-ringtone img{display:none;}
+.playlist-album-hot .list-song li.playing a.item-hot-song{color: #D80072;font-weight: bold;}
+.playlist-album-hot .control-media{width:336px;height:35px;}
+.list-img-album {float:left;width:310px;height:220px;margin-left:10px;display:inline;}
+.list-img-album  .list-item{display:inline;float:left;margin:1px 0 0 1px;width:109px;height:109px;position:relative;}
+.list-img-album p.overlay{bottom: 0px;font-size: 13px;left: 0;padding: 5px 0 5px 5px;position: absolute;width: 104px;background:#000;overflow:hidden;color:#ffffff;opacity:0.7;z-index: 100;height:32px;}
+.list-img-album p.overlay span{display:block;}
+.bx-pager a.pager-link{	background:url("../images/keeng_bg_07.png") no-repeat scroll 0 -29px transparent;float:left;width:8px;height:8px;margin-right:5px;cursor:pointer;	overflow:hidden;text-indent:20px;}
+.list-img-album .slider-hot{height: 220px;padding-top: 15px;position: relative;top: -15px;width: 310px;overflow:hidden;}
+.bx-window{overflow:hidden;}
+.bx-pager{position: absolute;right: 0;top: -10px;}
+.bx-pager a.pager-active{background:url("../images/keeng_bg_07.png") no-repeat scroll 0 -48px transparent;}
+/*search-video*/
+#left-body .video-list-home{float: left;overflow: hidden;padding-bottom: 15px;width: 640px;}
+#left-body .video-list-home h3.video-title-header{color: #535353;font-size: 14px;float:left;display:inline;font-weight:bold;}
+#left-body .video-list-home h3.video-title-header a:hover span.ping{color:#D80072;}
+#left-body .video-list-home h3.video-title-header span.span-header{background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;}
+#left-body .video-list-home h3.video-title-header a.link-header{float: left;padding-right: 25px;color: #565656;font-size: 14px;font-family:Tahoma;font-weight:bold;}
+#left-body .video-list-home .box-list{display: inline;float: left;overflow: hidden;margin-top:10px;width: 640px;}
+#left-body .video-list-home .box-list .item span.wrap a span.icon-play{height: 19px;   left: 115px;position: absolute;top: 63px;width: 19px;}
+#left-body .video-list-home .box-list .row{float:left;width:670px;overflow:hidden;margin-bottom:10px;}
+#left-body .video-list-home .box-list .item{float:left;margin-right:20px;line-height:18px;width:145px;overflow:hidden;   height: 162px;}
+#left-body .video-list-home .box-list .item span.wrap{width:145px;height:81px;float:left;position:relative;}
+#left-body .video-list-home .box-list .item span.wrap a{float:left;height:81px;display:block;overflow:hidden;}
+#left-body .video-list-home .box-list .item span.wrap a img{min-width:145px;min-height:81px;border:0px;}
+#left-body .video-list-home .box-list .item a.name-song{margin-top:5px;float:left;font-size:13px;line-height:18px;max-height:35px;overflow:hidden;width:145px;}
+#left-body .video-list-home .box-list .item a.name-single{color:#FD1C7C;float:left;display:block;font-size:13px;line-height:18px;max-height:35px;overflow:hidden;width:143px;}
+#left-body .video-list-home .row .item p.name-single {color: #727272;float: left;line-height: 16px;font-size:11px;max-height: 35px;overflow: hidden;width: 145px;}
+#left-body .video-list-home .row .item p.name-single a {color: #727272;font-size: 11px;}
+/*box-video-list*/
+#left-body .video-list{background: url("../images/keeng_hn_19.gif") repeat-x scroll left bottom transparent;float: left;width: 640px;overflow:hidden;padding-bottom:20px;margin-bottom:10px;}
+#left-body .video-list h3.video-title-header{color: #535353;font-size: 14px;margin-left:10px;float:left;display:inline;background: url(../images/keeng_42.gif) no-repeat right 3px;font-weight:bold;}
+#left-body .video-list h3.video-title-header a:hover span.ping{color:#D80072;}
+#left-body .video-list h3.video-title-header span.span-header{background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;}
+#left-body .video-list h3.video-title-header a.link-header{background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;color: #535353;font-size: 14px;font-family:Tahoma;font-weight:bold;}
+#left-body .video-list .row{float:left;width:630px;display:inline;overflow:hidden;margin-top:10px;}
+#left-body .video-list .row .item{float:left;margin-right:12px;line-height:18px;width:143px;}
+#left-body .video-list .row .item span.wrap{border:1px solid #dddddd;width:142px;height:88px;float:left;position:relative;}
+#left-body .video-list .row .item span.wrap a{border:3px solid #ffffff;float:left;height:82px;display:block;overflow:hidden;}
+#left-body .video-list .row .item span.wrap a span.icon-play{background: url("../images/keeng_44.gif") no-repeat scroll left top transparent;height: 19px;left: 115px;position: absolute;top: 63px;width: 19px;}
+#left-body .video-list .row .item span.wrap a:hover span.icon-play{background: url("../images/keeng_43.gif") no-repeat scroll left top transparent;}
+#left-body .video-list .row .item span.wrap a img{width:136px;min-height:82px;border:0px;}
+#left-body .video-list .row .item a.name-song{margin-top:5px;float:left;font-size:13px;line-height:18px;max-height:18px;overflow:hidden;width:143px;}
+#left-body .video-list .row .item a.name-single{color:#727272;float:left;display:block;font-size:11px;line-height:16px;height:35px;overflow:hidden;width:143px;}
+#left-body .video-list .row .item p.name-single {color: #727272;float: left;line-height: 16px;font-size:11px;height: 35px;overflow: hidden;width: 143px;}
+#left-body .video-list .row .item p.name-single a {color: #727272;font-size: 11px;}
+/*box-topic*/
+#right-body .topic {float: left;margin-bottom:15px;width: 310px;min-height:175px;}
+#right-body .topic h3.topic-header {color: #535353;display: inline;float: left;font-size: 14px;margin-left: 20px;width: 290px;font-weight:bold;margin-left:15px !important;}
+#right-body .topic ul.avatar {isplay: inline;float: left;margin-left: 5px;margin-top: 15px !important;overflow: hidden;width: 300px;}
+#right-body .topic ul.avatar li {float: left;text-align: center;width: 60px;}
+#right-body .topic ul.avatar li a {display: block;}
+#right-body .topic ul.avatar li a img {height: 30px;width: 30px;}
+#right-body .topic ul.avatar li span {display: block;margin-top: 5px;}
+#right-body .topic ul.list-topic {clear: both;display: inline;float: left;margin-left: 10px;margin-top: 5px;overflow: hidden;width: 300px;}
+#right-body .topic ul.list-topic li a {display: block;float: left;font-family: tahoma;font-size: 13px;line-height: 27px;overflow:hidden;}
+/*ringtone-hot*/
+#right-body .ringtone-hot{float: left;margin-left: 10px;margin-bottom:20px !important;width: 300px;display:inline;}
+#right-body .ringtone-hot h3.ringtone-hot-header{color: #565656;float: left;font-size:14px;text-indent: 7px;width: 300px;font-weight:bold;}
+#right-body .ringtone-hot h3.ringtone-hot-header span{ color: #C20255;}
+#right-body .ringtone-hot ul.ringtone-hot-list{float: left;width: 298px;margin-top:10px;}
+#right-body .ringtone-hot ul.ringtone-hot-list li{float: left;width: 100%;line-height:26px;height:26px;overflow:hidden;position:relative;}
+#right-body .ringtone-hot ul.ringtone-hot-list li.playing a.name-song{color:#D90072;font-weight:bold;}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-play{float:left;background:url("../images/keeng_bg_03.png") no-repeat scroll 0 0 transparent;width:19px;height:19px;margin-left:5px;margin-top:4px;display:inline;}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-play:hover{background:url("../images/keeng_bg_03.png") no-repeat scroll 0 -19px transparent;}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.name-song{float:left;margin-left:10px;font-family:Tahoma;line-height:26px;display:inline;font-size:13px;width:235px;}
+#right-body .ringtone-hot ul.ringtone-hot-list li.playing a.icon-play{background:url("../images/keeng_bg_03.png") no-repeat scroll 0 -19px transparent;}
+#right-body .ringtone-hot ul.ringtone-hot-list li a.icon-phone{float:right;margin-right:10px;background:url("../images/keeng_bg_03.png") no-repeat scroll 0 -142px transparent;width:7px;height:12px;	margin-top:5px;}
+/*thẻ loại*/
+#right-body .box_tl{float:left;width:100%;margin-bottom:8px !important;}
+#right-body .box_tl h3.box_tl-header{float:left;color:#565656;font-size:14px;margin-left:20px;display:inline;font-weight:bold;}
+#right-body .box_tl ul.box_tl-list{float: left;padding-left: 20px;width: 295px;margin-top:8px;}
+#right-body .box_tl ul.box_tl-list li{float: left;height: 26px;line-height: 26px;width: 145px;overflow:hidden;}
+#right-body .box_tl ul.box_tl-list li.active a{font-weight:bold;}
+#right-body .box_tl ul.box_tl-list li a{float: left;font-family: tahoma;font-size: 13px;line-height: 26px;}
+/*tab-music-box*/
+#left-body .tab-music-box{float:left;width:640px;margin-bottom:8px;}
+#left-body .tab-music-box ul.nav{float:left;width:635px;font-size:13px;font-weight:bold;color:#565656;padding-left:0px;}
+#left-body .tab-music-box li.nav-one{color:#565656;display:inline;}
+#left-body .tab-music-box ul.nav li a{color:#565656;font-size:14px;font-weight:bold;}
+#left-body .tab-music-box ul.nav li a:hover span {color: #E52B92;}
+#left-body .tab-music-box ul.nav li a.current span{color: #E52B92;}
+#left-body .tab-music-box li.nav-two{color:#565656;display:inline;}
+#left-body .tab-music-box .list-wrap{float:left;margin-top:15px;padding-top:2px;padding-bottom:5px;overflow:hidden;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list{float:left;width:640px;overflow:hidden;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li{float:left;width:320px;height:37px;line-height:37px;position:relative;overflow:hidden;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .count{float:left;width:85px;height:15px;margin-top:5px;}
+/*count*/
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .count a.icon-add{float:left;height:15px;width:15px;background:url("../images/keeng_bg_03.png") no-repeat scroll -4px -57px transparent;margin-right:1px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .count span.number{float:left;height:15px;line-height:15px;color:#FFF;background:url("../images/keeng_bg_03.png") no-repeat scroll right -102px #74BDFD;padding:0 15px 0 5px;font-size:11px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li.playing .count a.icon-add{background:url("../images/keeng_bg_03.png") no-repeat -4px -72px transparent;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .count a.icon-add:hover{background:url("../images/keeng_bg_03.png") no-repeat scroll -4px -72px transparent;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li.playing .count span.number{background:url("../images/keeng_bg_03.png") no-repeat scroll right -117px #FF197D;}
+/*end*/
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content{float:left;width:180px;margin-left:10px;display:inline;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content a{}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content a.icon-ringtone img{margin-top:2px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content a.name-song{padding-right:10px;color:#000000;font-size:13px;font-family:Tahoma;max-width:155px;_width:155px;height:20px;float: left;line-height: 20px;overflow:hidden;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content a.name-single{width:190px;font-size:11px;color:#727272;font-family:Tahoma;height:15px;line-height:12px;height:20px;float: left;line-height: 20px;overflow:hidden;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .content p.name-single{width:190px;font-size:11px;color:#727272;height:15px;font-family:Tahoma;line-height:13px;height:20px;float: left;line-height: 15px;overflow:hidden;}
+#left-body .tab-music-box .list-wrap .list-bxh ul.music-hot-list li .content p.name-single a{font-size:11px;color:#727272;}
+#left-body .tab-music-box .list-wrap .list-bxh ul.music-hot-list li .content a.icon-ringtone{float: left;height: 20px;line-height: 20px;overflow: hidden;}
+/*li.playing*/
+#left-body .tab-music-box .list-wrap ul.music-hot-list li.playing .content a.name-song{color:#D90072;font-weight:bold;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li a.icon-play{float:left;height:19px;width:19px;background:url("../images/keeng_bg_03.png") no-repeat scroll 0px 0px transparent;display:inline;margin-top:5px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li.playing a.icon-play{background:url("../images/keeng_bg_03.png") no-repeat scroll 0px -19px transparent;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li a.icon-play:hover{background: url("../images/keeng_bg_03.png") no-repeat scroll 0px -19px transparent;}
+/*processbar*/
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .control-media3 {float: left;height: 1px;left: 39px;overflow: hidden;position: absolute;top: 35px;width: 205px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .control-media3 p.left{background-color: #FF0000;height: 1px;left: 0;position: absolute;top: 0;width:205px;}
+#left-body .tab-music-box .list-wrap ul.music-hot-list li .control-media3 p.right{background-color: #FF0000;height: 1px;left: 150px;position: absolute;top: 0;}
+.ping {color:#106394;}
+/*banner*/
+#right-body .adv{float:left;width:300px;margin-bottom:10px;display:inline;margin-left:15px;}
+#right-body .adv a{float:left;width:300px;}
+.adv2 div{border:none !important;}
+/*adv2*/
+.adv2{width:640px;float:left;margin-bottom:5px;}
+.adv2 a.link-adv{width:640px;float:left;}
+/*News-music*/
+#left-body .news-music{float: left;width: 640px;overflow:hidden;}
+#left-body .news-music h3.news-music-header{color: #565656;float: left;font-size:14px;}
+#left-body .news-music h3.news-music-header span.span-header {background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;}
+#left-body .news-music h3.news-music-header a.link-header {float: left;padding-right: 25px;color: #565656;font-size:14px;font-family:Tahoma;font-weight:bold;}
+#left-body .news-music .news-music-content{float:left;width:640px;overflow:hidden;margin-top:10px;}
+#left-body .news-music .news-music-content h3.content-title{float:left;width:340px;line-height:20px;font-size:16px;margin-bottom:5px;display:inline;}
+#left-body .news-music .news-music-content h3.content-title a.link-title{font-size:16px;font-weight:bold;color:#535353;}
+#left-body .news-music .news-music-content h3.content-title a.link-title:hover{color:#D80072;text-decoration:none;}
+#left-body .news-music .news-music-content h3.content-title span{font-family:Arial;	}
+#left-body .news-music .news-music-content p.content-short{float:left;width:340px;font-size:13px;line-height:20px;display:inline;color:#333333;}
+#left-body .news-music .news-music-content ul.news-old{float:left;width:340px;display:inline;margin-top:5px;}
+#left-body .news-music .news-music-content ul.news-old li{background:url("../images/keeng_bg_07.png") no-repeat scroll 0 -37px transparent;float: left;padding: 3px 0 3px 12px;width: 330px;}
+#left-body .news-music .news-music-content ul.news-old li a{color:#565656;float: left;font-family: tahoma;font-size: 13px;}
+#left-body .news-music .news-music-content span.wrap{width:285px;height:172px;float:right;}
+#left-body .news-music .news-music-content span.wrap a{overflow:hidden;height:160px;float:left;}
+#left-body .news-music .news-music-content span.wrap a img{border:0px;float:left;width:285px;}
+.bg4{float: left;height: 11px;margin-top: 12px;width: 640px;overflow:hidden;display:none;}
+/*news-event*/
+#left-body .news-event{float: left;width: 640px;overflow:hidden;padding-bottom:15px;}
+#left-body .news-event .content-event{float:left;border-left:1px solid #CDCDCD;border-right:1px solid #CDCDCD;border-bottom:1px solid #CDCDCD;width:638px;background-color:#FAFAFA;padding-bottom:5px;}
+#left-body .news-event .scroll-ajax{background-color: #F2F2F2;float: left;height: 30px;width: 625px;margin-left:5px;margin-top:5px;overflow:hidden;display:inline;}
+#left-body .news-event .scroll-ajax .slide-show{width:600px;overflow:hidden;float:left;height:23px;margin-left:5px;display:inline;}
+#left-body .news-event .scroll-ajax ul.parent-event{overflow:hidden;}
+#left-body .news-event .scroll-ajax ul.parent-event li.item-event{font-size: 13px;line-height: 30px;width: 600px;display:inline;list-style:none;float:left;text-align:left;}
+#left-body .news-event .scroll-ajax ul.parent-event li.item-event span{color: #D90072;font-weight: bold;margin-right: 5px;}
+#left-body .news-event .scroll-ajax ul.parent-event li.item-event a.link-content{color:#333333;font-family:Tahoma;line-height:20px;font-size:13px;}
+#left-body .news-event .scroll-ajax ul.parent-event li.item-event a.link-content:hover{text-decoration: none;color:#D80072;}
+#left-body .news-event .scroll-ajax p.news-event-content{float: left;font-size: 13px;line-height: 20px;width: 590px;margin-left:5px;display:inline;}
+#left-body .news-event .scroll-ajax p.news-event-content span{color: #D90072;font-weight: bold;margin-right: 5px;}
+#left-body .news-event .scroll-ajax p.news-event-content a.link-content{color:#000000;font-family:Tahoma;line-height:20px;font-size:13px;}
+#left-body .news-event .scroll-ajax a.next{ background:url("../images/keeng_149.png") no-repeat scroll left -41px transparent;float: right;height: 12px;margin-right: px;margin-top: 10px;width: 9px;}
+/*fan và sao*/
+#left-body .fan{float: left;overflow: hidden;width: 100%;background: url(../images/keeng_44.png) no-repeat top left;}
+#left-body .fan h3.fan-header{font-size:14px;color:#555555;float:left;margin-left:10px;display:inline;}
+#left-body .fan h3.fan-header span.span-header {background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;}
+#left-body .fan h3.fan-header a.link-header {background: url("../images/keeng_42.gif") no-repeat scroll right 3px transparent;float: left;padding-right: 25px;font-size:14px;font-family:Tahoma;color:#555555;font-weight:bold;}
+#left-body .fan .fan-content{float: left;width:638px;border-left:1px solid #CDCDCD;border-bottom:1px solid #CDCDCD;border-right:1px solid #CDCDCD;background-color:#fafafa;overflow:hidden;}
+#left-body .fan .fan-content .item{border-top: 1px solid #DDDDDD;float: left;margin-left: 10px;padding: 5px 0 10px;margin-right:5px;width: 303px;display:inline;height:52px;overflow:hidden;}
+#left-body .fan .fan-content .first{border-top: 0px;}
+#left-body .fan .fan-content .item a.img-fan{display: block;float: left;height: 46px;margin-top: 5px;width: 46px;}
+#left-body .fan .fan-content .item a.img-fan img{ height: 46px;width: 46px;}
+#left-body .fan .fan-content .item p.infor{display: inline;float: left;max-height: 37px;line-height: 19px;margin-left: 10px;overflow: hidden;width: 245px;}
+#left-body .fan .fan-content .item p.p-name{float:right;width:248px;font-size:11px;line-height:18px;}
+#left-body .fan .fan-content .item p.p-name a{color:#d80072;}
+#left-body .fan .fan-content .item p.p-name a.name-star{margin-right:5px;font-weight:bold;font-size:12px;}
+#left-body .fan .fan-content .item p.p-name a.comment-no{background:url(../images/keeng_50.gif) no-repeat 0px 3px;padding-left:15px;}
+#left-body .fan .fan-content .item p.p-name a.like-no{background:url(../images/keeng_49.gif) no-repeat 0px 0px;padding-left:15px;}
+#left-body .fan .fan-content .item p.infor a.content {text-decoration: none;}
+#left-body .fan .fan-content .item p.infor a.content:hover{  color:#D80072;}
+#left-body .fan .item p.infor a.name{color: #D90072;font-family: tahoma;font-size: 13px;font-weight: bold;margin-right: 5px;}
+/*123*/
+#box-search {float: left;position: relative;width: 640px;font-size:0px;}
+/*video-hit*/
+.video-hit{float:left;width:310px;height:220px;position:relative;}
+.video-hit a.video-hit-img{display: block;float: left;height: 220px;overflow: hidden;}
+.list-img-album ul li.item-event{float:left;width:310px;}
+.video-hit a.video-hit-img img{border: 0 none;min-height: 220px;} 
+.video-hit h3{background: url("../images/keeng_38.png") repeat scroll left top transparent;display: block;font-size: 13px;height: 38px;left: 0;overflow: hidden;padding: 5px 10px;position: relative;top: -48px;width: 180px;z-index: 100;text-align:left;width:290px;}
+.video-hit h3 a.name-song{color: #FFFFFF;font-family: Tahoma;font-size: 13px;height: 18px;line-height: 18px;}
+.video-hit h3 p.name-single{color: #DA0065;font-family: Tahoma;font-size: 12px;height: 18px;line-height: 21px;font-weight:normal;}
+.video-hit h3 p.name-single a{ color: #D70072;font-size: 13px;}
+.box-ranktable-home .list-rank .row a.icon-video{background: url("../images/keeng_120.png") no-repeat scroll left top transparent;float: left;height: 11px;margin-left: 5px;margin-top: 7px;width: 13px;display:inline;}
+.box-ranktable-home .list-rank .row-top a.icon-video{background: url("../images/keeng_120.png") no-repeat scroll left top transparent;float: left;height: 11px;margin-left: 5px;margin-top: 7px;width: 13px;display:inline;}
+.box-ranktable-home .list-rank .row a.icon-video img{display:none;}
+/* Tiny Scrollbar */
+#scrollbar1 { width: 360px;margin-top:10px;position:relative; overflow:hidden;}
+#scrollbar1 .viewport { width:360px; height:138px; overflow: hidden; position: relative; margin-left:10px; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0;z-index:1; }
+#scrollbar1 .scrollbar{ position: absolute; background-position: 0 0; float: right; width: 15px;right:-2px; top:0px;z-index:10;background-color:#ffffff;}
+#scrollbar1 .track { height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 20px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0px; }
+#scrollbar1 .thumb .end { background: transparent  url(../images/bg-scrollbar-thumb-y.png) no-repeat scroll 50% 0 ; overflow: hidden; height: 5px; width: 20px; }
+#scrollbar1 .disable { display: none; }
+/*flash*/
+.box-flash-album{width:640px;overflow:hidden;float:left;padding-bottom: 15px;}
+.box-flash-album .box-flash{background-color: #FFFFFF;float: left;height: 320px;margin-top: 10px;padding: 3px 3px 2px 2px;width: 635px;}
+.box-flash-album h3.album-hot-title{color: #535353;display: inline;float: left;font-size: 14px;font-weight: bold;margin-top:4px;}
+.box-flash-album h3.album-hot-title a{font-weight: bold;color:#565656;padding-right: 25px;}
+.box-flash-album .app-keeng{float:right;color:#676767;;line-height:25px;font-size: 14px;font-weight: bold;width:500px;text-align:right;}
+.box-flash-album .app-keeng p{display:inline;}
+.box-flash-album .app-keeng a{margin-left:15px;color: #676767;height: 25px;line-height: 25px;width:60px;}
+.box-flash-album .app-keeng a.share-app-android{}
+.box-flash-album .app-keeng a.share-app-win{}
+.box-flash-album .app-keeng a.share-app-ios{}
+/*home-rank*/
+.box-ranktablehome{float: left;margin-bottom: 15px;overflow: hidden;width: 640px;}
+.box-ranktablehome .header-tab{float:left;width:640px;}
+.box-ranktablehome .header-tab h3.rank-title{color: #535353;display: inline;float: left;font-size: 14px;font-weight: bold;margin-top:10px;}
+.box-ranktablehome .header-tab h3.rank-title a{color: #535353 !important;}
+.box-ranktablehome .header-tab .div-tab{color: #565656;float:left;font-size: 13px;font-weight:bold;height: 32px;line-height: 23px;padding-left: 10px;padding-top: 7px;text-align: right;}
+.box-ranktablehome .header-tab .div-tab a{color: #565656;font-weight:bold;height: 24px;line-height: 23px;text-align: center;text-transform: uppercase;width: 74px;font-size:14px;}
+.box-ranktablehome .header-tab .div-tab a.current{color:#D70082 !important;text-decoration: none !important;}
+.box-ranktablehome .header-tab .div-tab a:hover {text-decoration: underline;}
+.box-ranktablehome .list-wrap{display: block;min-height: 317px;float:left;height:auto !important;background-color:#ffffff;}
+.box-ranktablehome  .list-ranktablehome {float: left;width: 640px;background-color: #ffffff;}
+.box-ranktablehome  .list-ranktablehome .row{float: left;height: 47px;overflow: hidden;width: 640px;}
+.box-ranktablehome  .list-ranktablehome .row .item{float: left;width: 320px;}
+.box-ranktablehome  .list-ranktablehome .odd{background-color:#F5F5F5;height:60px;}
+.box-ranktablehome  .list-ranktablehome .odd .item{float: left;padding: 7px 0;width: 320px;}
+.box-ranktablehome  .list-ranktablehome .row .item strong{display: inline;float: left;margin-left: 15px;width: 25px;margin-top:15px;color:#515151;}
+.box-ranktablehome  .list-ranktablehome .row .item strong.bg-strong{background: url("../images/keeng_bg_01.png") no-repeat scroll -42px -38px transparent;color: #FFFFFF;height: 19px;line-height: 17px;margin-left: 10px;margin-right: 10px;text-align: center;width: 19px;}
+.box-ranktablehome  .list-ranktablehome .row .item .link-avatar{display: inline;float: left;height: 46px;width: 46px;margin-right:10px;}
+.box-ranktablehome  .rank-video .row .item .link-avatar{width:82px;}
+.box-ranktablehome  .list-ranktablehome .row .item .link-avatar img{height: 46px;width: 46px;}
+.box-ranktablehome  .rank-video .row .item .link-avatar img{width:82px;}
+.box-ranktablehome  .list-ranktablehome .row .item a.name-song{float: left;font-family: tahoma;font-size: 13px;line-height: 18px;max-height: 35px;overflow: hidden;max-width: 215px;display:inline;cursor:pointer;color:#515151;min-width:30px;}
+.box-ranktablehome  .rank-video .row .item a.name-song{max-width:187px;}
+.box-ranktablehome  .list-ranktablehome .row .playing a.name-song{font-weight:bold;color:#D80072;}
+.box-ranktablehome  .list-ranktablehome .row .item p.name-single{color: #727272;float: left;font-family: tahoma;font-size: 11px;line-height: 18px;max-height: 35px;display:inline;overflow: hidden;width: 220px;}
+.box-ranktablehome  .rank-video .row .item p.name-single{max-width:187px;}
+.box-ranktablehome  .list-ranktablehome .row .item p.name-single a{color: #727272;font-size: 11px;}
+.box-ranktablehome  .list-ranktablehome .row .item span{}
+.box-ranktablehome  .list-ranktablehome .top-song{height: 90px;}
+.box-ranktablehome  .rank-video .top-song{height:98px;}
+.box-ranktablehome  .rank-video .top-song .item{width:316px;}
+.box-ranktablehome .list-ranktablehome .row .item strong.bg-strong-top {background: url("../images/keeng_bg_01.png") no-repeat scroll -61px -38px transparent;
+color: #FFFFFF;font-size: 14px;height: 21px;line-height: 19px;margin-left: 8px;margin-right: 10px;text-align: center;
+width: 21px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item a.adv{display:block;cursor:pointer;float:right;padding-right: 6px;width: 290px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item a.adv img{float:right;height:83px;min-width:width: 290px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item strong{background: url("../images/keeng_bg_01.png") no-repeat scroll -61px -38px transparent;color: #FFFFFF;font-size: 14px;height: 21px;line-height: 19px;margin-left: 8px;margin-right: 10px;margin-top: 32px;text-align: center;width: 21px;}
+.box-ranktablehome  .list-ranktablehome .row .right strong{margin-left:0px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item .link-avatar{width:83px;height:83px;}
+.box-ranktablehome  .rank-video .top-song .item .link-avatar{width:147px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item .link-avatar img{width:83px;height:83px;}
+.box-ranktablehome  .rank-video .top-song .item .link-avatar img{width:147px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item a.name-song{font-weight: bold;margin-top: 6px;max-width: 175px;}
+.box-ranktablehome  .rank-video .top-song .item a.name-song{max-width:120px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item p.name-single{width: 183px}
+.box-ranktablehome  .rank-video .top-song .item p.name-single{width:120px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item p.name-single a{}
+.box-ranktablehome  .list-ranktablehome .top-song .item a{}
+.box-ranktablehome  .service{float: left;padding: 15px 0px 0;width: 640px;}
+.box-ranktablehome .vd{background-color:#F5F5F5;}
+.box-ranktablehome  .service .link-share-sms{background: url("../images/keeng_bg_07.png") no-repeat scroll left -166px transparent;color: #767676;cursor: pointer;float: left;font-size: 11px;height: 29px;line-height: 29px;padding-left: 40px;}
+.box-ranktablehome  .service .link-share-sms:hover{background: url("../images/keeng_bg_07.png") no-repeat scroll left -210px transparent;}
+.box-ranktablehome  .service .view-more-rank{color: #565656;float: right;font-size: 11px;margin-top: 8px;}
+.box-ranktablehome  .service .view-more-rank a.link-view-more{color: #767676;} 
+.box-ranktablehome  .list-ranktablehome .row .item a.icon-video {background: url("../images/keeng_bg_03.png") no-repeat scroll 0 -132px transparent;display: inline;float: left;height: 10px;margin-left: 5px;margin-top: 5px;width: 13px;}
+.box-ranktablehome  .list-ranktablehome .top-song .item a.icon-video{margin-top:11px;}
+/*facebook*/
+.fb-like{margin-left:144px;}
+/*singer-hot*/
+/*singer-hot*/
+.box-singer-hot{margin-left:10px;padding-bottom:14px;width:300px;float:left;}
+.box-singer-hot h3.title-singer-hot{color:#535353;font-size:14px;float:left;padding-left:7px;}
+.singer-hot{float:left;width:298px;padding-bottom:20px;margin-top:13px;}
+.singer-hot .singer-top{float:left;padding:7px;}
+.singer-hot .singer-top a.singer-avatar{float: left;width: 284px;}
+.singer-hot .singer-top a.singer-avatar img{float: left;width: 284px;}
+.singer-hot .singer-top a.name-singer{float: left;line-height:20px;margin-top:10px;color:#565656;font-weight:bold;margin-bottom:7px;}
+.singer-hot .singer-top p{float: left;width: 290px;color:#676767;}
+.singer-hot .row{float:left;width:291px;padding-left:7px;}
+.singer-hot .row .item{float: left;width: 97px;}
+.singer-hot .row a.singer-avatar{float: left;width: 90px;float:left;border: 1px solid #EEEEEE;}
+.singer-hot .row a.singer-avatar img{float: left;width: 90px;}
+.singer-hot .row a.name-singer{float:left;color:#515151;margin-top:5px;width:100%;font-size:11px;}
+/*comment-facebook*/
+#left-body .box-comment-facebook{float:left;}
+#left-body .box-comment-facebook h3.title-comment{background:url("../images/keeng_bg_07.png") no-repeat scroll left -129px transparent;color: #535353;display: inline;float: left;font-size: 14px;font-weight: bold;height:24px;line-height:24px;margin-left: 14px;padding-left:30px;}
+#left-body .box-comment-facebook .box-comment{background-color: #FFFFFF;border: 1px solid #C7C7C7;border-top:0px;margin-top: 10px;width: 638px;float:left;padding-bottom:5px;min-height:73px;}
+.fan_box .connections_grid .grid_item{height:200px;}
+.grid_item{font-size:100px;}
+.box-active{float:left;position:relative;}
+.box-active h3.title-active {background: url("../images/keeng_bg_07.png") no-repeat scroll left -129px transparent;color: #535353;display: inline;float: left;font-size: 14px;font-weight: bold;height: 24px;line-height: 24px;margin-left: 14px;padding-left: 30px;}
+.plugin_hiden{bottom: 18px;height: 22px;left: 13px;position: absolute;width: 290px;}
+.recomment-fb{}
+.like-fb-home div{border:0px !important;}
+.like-fb-home{position:relative;z-index:999;}
+.box-flash-album .box-flash {
+    background-color: #FFFFFF;
+    float: left;
+    height: 320px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 3px 0px 2px;
+    width: 640px;
+}
+#play_list {display: block;float:left;position:relative;}
+#play_list .item {height: 159px;overflow: hidden;position: absolute;width: 159px;background:url(../images/default_images/default_album_hot.jpg) no-repeat scroll center center #fff}
+#play_list .item1 {left: 0;top: 0;}
+#play_list .item2 {left: 160px;top: 0;}
+#play_list .item3 {left: 320px;top: 0;}
+#play_list .item4 {left: 480px;top: 0px;}
+#play_list .item5 {left: 0;top: 160px;}
+#play_list .item6 {left: 160px;top: 160px;}
+#play_list .item7 {left: 320px;top: 160px;}
+#play_list .item8 {left: 480px;top: 160px;}
+#play_list .black_mask {background: none repeat scroll 0 0 #000000;height: 159px;position: absolute;width: 246px;}
+#play_list .label {font-family: Arial,Veranda;font-size: 13px;height: 44px;position: absolute;top: 135px;width: 246px;}
+#play_list .song {color: #FFFFFF;margin: 4px 2px;position: absolute;}
+#play_list .author {color: #E40063;font-size: 12px;margin: 2px;}
+#play_list .toplabel {height: 24px;position: absolute;width: 236px;padding:0px 5px;line-height:18px }
+#play_list .leftbottom {display: block;height: 18px;position: absolute;top: 25px;width: 236px;padding:0px 5px; line-height:18px }
+.black1, .black2 {background: none repeat scroll 0 0 #000000;}
+
+/*box-play*/
+#body #left-body .box-audio ul.music-hot-list li .content p.name-single{width:auto !important;max-width:135px;}
+#body #left-body  .box-audio ul.music-hot-list li .count {width:auto !important;float:right;}
+#body #left-body .box-audio  ul.music-hot-list li .content{width:245px !important; max-width:245px!important;}
+#body #left-body .box-audio  ul.music-hot-list li .content a.name-song{width:240px !important;max-width:240px!important;}
+#body #left-body .box-audio ul.music-hot-list{ padding-left: 10px;width: 630px;}
+#body #left-body .box-audio ul.music-hot-list li{ width: 315px;}
+#body #left-body .box-audio ul.music-hot-list li a.icon-play{margin-left:0px;}
+#body #left-body .box-audio ul.music-hot-list li .count a{margin-right:5px;}
+
+#body #left-body  .box-audio ul.music-hot-list li .count{display:none;}
+#body #left-body  .box-audio ul.music-hot-list li .content img{display:none;}
+#body #left-body .box-audio ul.music-hot-list li .content a.icon-video{display:none;}
+#body #left-body .box-audio ul.music-hot-list li .content a.icon-ringtone{display:none;}
+/*slider*/
+.top-slider-album{margin: 0 0 15px;overflow: hidden;position: relative;width: 640px;}
+.top-slider-album ul.bxslider{  display: block;height: 293px;width: 700px;}
+.top-slider-album ul.bxslider li{width: 640px;display:block;position:relative;height:293px;}
+.top-slider-album ul.bxslider li img{width: 640px;display:block;}
+.top-slider-album  .album-bx-pager{background: none repeat scroll 0 0 #000000;height: 60px;overflow: hidden;padding: 10px 5px;}
+.top-slider-album  .album-bx-pager a {float: left;height: 60px;margin: 0 5px;position: relative;width: 60px;overflow:hidden;}
+.top-slider-album  .album-bx-pager a img {display: block;height: 60px;}
+.top-slider-album  .album-bx-pager a span.border{display:none;}
+.top-slider-album  .album-bx-pager a:hover span.border,.top-slider-album  .album-bx-pager a.active span.border {background: none repeat scroll 0 0 #98E404;bottom: 0;display: block;font-size: 0;height: 5px;left: 0;overflow: hidden;position: absolute;width: 60px;}
+.top-slider-album  .album-bx-pager a span.mask {background: none repeat scroll 0 0 #000000;bottom: 0;display: block;height: 60px;margin: 0 0 -60px;opacity: 0.5;position: relative;top: -60px;width: 60px;filter:alpha(opacity=50); MARGIN: 0px 0px -60px}
+.top-slider-album  .album-bx-pager a.active span.mask, .top-slider-album  .album-bx-pager a:hover span.mask{display:none;}
+
+h3.h3-bx-txt{  background-color: rgba(0, 0, 0, 0.7);background-image: url("about:blank");bottom: 0px;left: 0;overflow: hidden;position: absolute;width: 640px;z-index: 1;height:43px;}
+h3.h3-bx-txt span{color: #98E404;float: left;font-family: arial;font-size: 20px;font-weight: normal;padding: 0px 20px;height:43px;line-height:43px;}
+
+h3.bx-music span{ background:url("../images/control_slider.png") no-repeat scroll -80px -73px transparent;padding-left: 50px;}
+h3.bx-album span{ background:url("../images/control_slider.png") no-repeat scroll -80px -34px transparent;padding-left: 50px;}
+h3.bx-video span{ background:url("../images/control_slider.png") no-repeat scroll -80px -113px transparent;padding-left: 50px;}
+
+
+.top-slider-album  .bx-wrapper{position:relative;}
+.top-slider-album  .bx-wrapper .bx-controls{position:absolute;bottom:7px;right:15px;z-index:999;}
+.top-slider-album  .bx-wrapper .bx-controls .bx-controls-direction{}
+.top-slider-album  .bx-wrapper .bx-controls .bx-controls-direction a{ background: url("../images/control_slider.png") no-repeat scroll 0 0 transparent;float: left;height: 29px;margin-left: 5px;text-indent: -1000px;width: 30px;}
+.top-slider-album  .bx-wrapper .bx-controls a.bx-prev{}
+.top-slider-album  .bx-wrapper .bx-controls a.bx-prev:hover{background-position: -30px 0;}
+.top-slider-album  .bx-wrapper .bx-controls a.bx-next{ background-position: -60px 0;}
+.top-slider-album  .bx-wrapper .bx-controls a.bx-next:hover{ background-position: -90px 0;}
+/*new*/
+#box-single {
+   padding: 0 5px 5px !important;
+    width: 945px !important;
+}
+
+

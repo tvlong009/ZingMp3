@@ -1,0 +1,325 @@
+/* CSS Document */
+.vimark_content {
+	position:relative;
+	padding:5px;
+	border:1px solid #EFEFEF
+}
+.vimark_content .items{
+	float:left;
+	margin-bottom:5px;
+}
+.vimark_content .items .content{
+	padding:10px;
+	border:1px solid #F4F4F4;
+	width:90%;
+	margin:auto;
+}
+.vimark_content .items .content h2{
+	font-size:14px;
+}
+.vimark_content .items .content img{
+	padding:1px;
+	border:1px solid #F4F4F4;
+}
+
+.vimark_content2 .items_list{
+	margin-bottom:5px;
+	padding:10px;
+	border:1px solid #EFEFEF
+}
+.vimark_content2 .items_list h2{
+	font-size:16px;
+	margin-bottom:5px
+}
+.vimark_content2 .items_list img{
+	padding:5px;
+	border:1px solid #EFEFEF;
+}
+.vimark_content2 .items_list .div_hometext{
+	float:left;
+	width:350px;
+	margin-left:20px;
+}
+
+.vimark_content3 .items_list{
+	margin-bottom:5px;
+	padding:10px;
+	border:1px solid #EFEFEF
+}
+.vimark_content3 .items_list h2{
+	font-size:16px;
+	margin-bottom:5px
+}
+.vimark_content3 .items_list img{
+}
+.vimark_content3 .items_list .div_hometext{
+	float:left;
+	width:350px;
+	margin-left:20px;
+}
+
+.btview{
+	display:inline-block;
+	padding:14px 25px;
+	background:url(../images/vimark/btview.png) repeat-x;
+	text-align:center;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border:1px solid #4ebf3a;
+}
+.facebook {
+	display:inline-block;
+	height:23px;
+	width:23px;
+	background:url(../images/vimark/facebook.gif) no-repeat center;
+}
+.zing {
+	display:inline-block;
+	height:23px;
+	width:23px;
+	background:url(../images/vimark/zing.png) no-repeat center;
+}
+.quote {
+	background:url(../images/vimark/quote.gif) no-repeat left top;
+	padding-left:40px;
+	color:#333
+}
+.money_discount {
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+	text-decoration:line-through;
+}
+.money_lage {
+	font-size:20px;
+	font-weight:bold;
+	color:#F60;
+}
+.money_small {
+	font-size:12px;
+	font-weight:bold;
+	color:#F60;
+}
+.savings_lage {
+	font-size:15px;
+	font-weight:bold;
+	color:#333
+}
+.savings_small {
+	font-size:11px;
+	color:#333
+}
+.pages {
+	padding:3px;
+	text-align:right;
+}
+.pages a{
+	padding:3px 5px;
+	text-align:center;
+	border:1px #F5F5F5 solid;
+}
+.pages strong{
+	padding:3px 5px;
+	text-align:center;
+	border:1px #F5F5F5 solid;
+}
+
+.price_view {
+	width:240px;
+	background:#F4F4F4;
+	float:left;
+	padding:10px;
+}
+.viewtitle {
+	font-weight:bold;
+	background:#F7F7F7;
+	padding:5px;
+	color:#069
+}
+table.archives_list {
+    background: #FFF;
+    border-collapse:collapse;
+    width: 100%;
+	empty-cells: show;
+	border-right: 1px solid #c9d7de;
+	border-top: 1px solid #c9d7de;
+	margin-top:2px;
+}
+
+table.archives_list tbody {
+    
+}
+
+table.archives_list tbody.second {
+    background:#F8F8F8
+}
+
+table.archives_list td{
+    border-left: 1px solid #c9d7de;
+	border-bottom: 1px solid #c9d7de;
+	padding:5px;
+}
+
+table.archives_list tfoot{
+    background: #CCC;
+}
+
+table.archives_list thead {
+    background: #F0F0F0;
+	font-weight:bold;
+}
+/*slides*/
+#slides { height:220px; width:350px; float:left; display:block; position:relative }
+#slides .slides_container {
+	display:none;
+	position:relative
+}
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+#slides .slides_container div {
+	width:350px;
+	height:220px;
+	display:block;
+}
+
+/*
+	Optional:
+	Reset list default style
+*/
+#slides .pagination {
+	list-style:none;
+	margin:0;
+	padding:0;
+	z-index:1000;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#slides .pagination li{
+	float:left;
+	display:block;
+	background:url(../images/vimark/bgvi.png);
+	margin-right:2px;
+}
+#slides .pagination li a{
+	color:#FFF;
+	font-weight:bold;
+	display:block;
+	width:20px;
+	text-align:center;
+	line-height:20px;
+}
+/*
+	Optional:
+	Show the current slide in the pagination
+*/
+.pagination li.current {
+	color:#FFF;
+	background:#666;
+}
+#slides .prev { display:none }
+#slides .next { display:none }
+
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+#products {
+	width:420px;
+	position:relative;
+}
+#products .slides_container {
+	width:420px;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #dfdfdf;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#products .slides_container a {
+	width:420px;
+	height:280px;
+	display:block;
+}
+#products .slides_container a img{
+	width:420px;
+	height:280px;
+}
+/*
+	Next/prev buttons
+*/
+
+#products .next,#products .prev {
+	position:absolute;
+	top:140px;
+	width:21px;
+	height:0;
+	padding-top:21px;
+	overflow:hidden;
+	display:block;
+	z-index:900;
+}
+
+#products .prev {
+	left:3px;
+	background:url(../images/vimark/arrow-prev.png);
+}
+
+#products .next {
+	right:3px;
+	background:url(../images/vimark/arrow-next.png);
+}
+
+/*
+	Pagination
+*/
+
+#products .pagination {
+	
+}
+
+#products .pagination li {
+	float:left;
+	list-style:none;
+	margin-top:3px;
+}
+
+#products .pagination li a {
+	display:block;
+	margin:1px;
+	float:left;
+	background:#f9f9f9;
+	width:50px;
+	height:40px;
+	padding:3px;
+}
+#products .pagination li a img{
+	width:50px;
+	height:40px;
+}
+
+
+#products .pagination li.current a {
+	border:1px solid #7f7f7f;
+	margin:0;
+}

@@ -1,0 +1,947 @@
+/**/
+.mtop40
+{
+	margin-top:40px !important;
+}
+.w675
+{
+	width:675px !important;
+}
+.w145
+{
+	width:145px !important;
+}
+.w510
+{
+	width:510px !important;
+}
+.mleft15
+{
+	margin-left:15px !important;
+}
+.color1
+{
+	color:#525252;
+}
+.mleft125
+{
+	margin-left:125px !important;
+}
+.w370
+{
+	width:370px !important;
+}
+.w500
+{
+   width:500px !important;
+}
+.w375
+{
+	width:375px;
+}
+.border-transparent
+{
+    background: url(../images/theme00/keeng_37.png) repeat top left;
+    padding: 5px;
+    margin: 0 auto;
+    width: 375px;
+	float:left;
+}
+.box-popup-content
+{
+    background: #fff;
+    margin: 0 auto;
+	overflow:hidden;
+	border:5px solid #ffffff;
+	width:365px;
+	padding-bottom:50px;
+	color:#535353;
+	float:left;
+	overflow:visible;
+}
+/*contact*/
+.box-popup-contact
+{
+    background: url(../images/theme00/keeng_102.png) no-repeat top left #F0F0F0;
+    margin: 0 auto;
+	overflow:hidden;
+	border:5px solid #ffffff;
+	width:665px;
+	padding-bottom:20px;
+	color:#535353;
+}
+.box-popup-contact h1.header {
+    float: left;
+    height: 90px;
+    position: relative;
+    width: 665px;
+}
+.box-popup-contact h1 a.close-contact {
+    color: #D6D6D6;
+    display: inline;
+    float: right;
+    font-size: 14px;
+    margin-right: 5px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.box-popup-contact h1 a.close-contact:hover{
+	color:#FFF;	
+}
+.box-popup-contact h1.header a.logo
+{
+    background: url("../images/theme00/keeng_logo.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 66px;
+    left: 221px;
+    position: absolute;
+    top: 15px;
+    width: 199px;
+}
+.box-popup-contact .contact-content
+{
+	 background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    float: left;
+	padding-bottom:10px;
+    margin-left: 12px;
+    width: 640px;
+}
+.box-popup-contact .contact-content h3
+{
+	    color: #E2026C;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.box-popup-contact .contact-content p.p-content
+{
+	 color: #373737;
+    line-height: 20px;
+    padding-left: 15px;
+}
+.box-popup-contact .contact-content hr
+{
+	 border-top: 1px solid #D3D3D3;
+    color: #D3D3D3;
+}
+.box-popup-contact .contact-content a.link-home
+{
+	font-size: 13px;
+    font-weight: normal;
+	cursor:pointer;
+	color:#006400;
+}
+.box-popup-content h1.header
+{
+	background:url(../images/theme00/keeng_69.png) no-repeat top left;
+	height:49px;
+	width:365px;
+	float:left;
+}
+.box-popup-content h1 a
+{
+    float: right;
+    color: #d6d6d6;
+	font-size:14px;
+	margin-right:5px;
+	font-weight:bold;
+	display:inline;
+	cursor:pointer;
+}
+ a.close-share{
+	color: #535353;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.box-popup-content h1 a:hover
+{
+    float: right;
+    color: #fff;
+}
+.box-popup-content h3.title
+{
+   font-size:14px;
+   color:#ED107A;
+   float:left;
+   display:inline;
+   margin-left:25px;
+   margin-top:25px;
+   width:340px;
+}
+.box-popup-content .box-popup-rows
+{
+   color:#535353;
+   float:left;
+   display:inline;
+   margin-left:25px;
+   margin-top:10px;
+   width:340px;
+}
+.box-popup-content .box-popup-rows input.rdo
+{
+	float:left;
+	margin-right:5px;
+}
+.box-popup-content .box-popup-rows input.file
+{
+	border:0px;
+}
+.box-popup-content .item-left
+{
+	float:left;
+	width:100px;
+	line-height:27px;
+}
+.popup-infor .item-left
+{
+	 width: 115px;
+}
+.box-popup-content .item-right
+{
+	float:left;
+	width:210px;
+	height:27px;
+	background:url(../images/theme00/keeng_32.gif) no-repeat top left;
+}
+.box-popup-content  .item-right input
+{
+
+    border: 0 none;
+    color: #656565;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 5px;
+	padding-right:5px;
+	display:inline;
+    width: 190px;
+}
+.box-popup-content p.mess
+{
+	float:left;
+	color:#535353;
+	line-height:18px;
+	display:inline;
+    margin-left:25px;
+    margin-top:10px;
+	width:340px;
+	display:inline;
+}
+.box-popup-content p.text
+{
+	float:left;
+	display:inline;
+	margin-left:25px;
+	color:#535353;
+	width:340px;
+    margin-top:10px;
+}
+.box-popup-content p.account1
+{
+	float: left;
+    margin-left: 125px;
+    width: 235px;
+	margin-top:15px;
+	display:inline;
+}
+.box-popup-content p.account1 a
+{
+
+	font-size:13px;
+	font-family:Tahoma;
+	color:#535353;
+	
+}
+.box-popup-content p.account2
+{
+	float: left;
+    margin-left: 145px;
+    width: 230px;
+	margin-top:10px;
+	display:inline;
+}
+.box-popup-content p.notice-login
+{
+	margin-left:0px;
+	padding-left:10px;
+	line-height:19px;
+	width:355px;
+	text-align:center;
+	color:#767676;
+}
+.box-popup-content p.account2 span {
+    color: #D70082;
+    font-weight: bold;
+}
+.box-popup-content p.account2 a
+{
+	color:#EE177C;
+	font-weight:bold;
+	font-size:13px;
+	font-family:Tahoma;
+}
+.box-popup-content p.account2 a:hover
+{
+	text-decoration:underline;
+}
+.box-popup-content a.btn-confirm
+{
+	float:left;
+	height:26px;
+	line-height:26px;
+	width:80px;
+	font-family:tahoma;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:125px;
+	display:inline;
+	margin-top:15px;
+	background:url(../images/theme00/keeng_155.png) top left;
+}
+.box-popup-content .btn-rbt
+{
+	background:url(../images/theme00/keeng_155_b.png) no-repeat top left !important;
+	width:130px !important;
+}
+.box-popup-content input.btn-confirm
+{
+	float:left;
+	height:26px;
+	line-height:26px;
+	font-family:tahoma;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:125px;
+	display:inline;
+	margin-top:15px;
+	background:url(../images/theme00/keeng_55.png) top left;
+	border:0px;
+	width:80px;
+}
+.box-popup-content .button
+{
+	background: url("../images/theme00/keeng_155.png") no-repeat scroll left top transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 125px;
+    margin-top: 15px;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 80px;
+}
+.box-popup-content #contact_submit
+{
+	margin-left:30px;
+}
+.box-popup-content input#signin_submit
+{
+	margin-left:150px;
+}
+.box-popup-content input.contact_submit
+{
+	margin-left:30px;
+}
+.box-popup-content input.btn-reg-confirm
+{
+    float:left;
+	height:26px;
+	line-height:26px;
+	width:80px;
+	font-family:tahoma;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:125px;
+	display:inline;
+	margin-top:15px;
+	background:url(../images/theme00/keeng_155.png) top left;
+	border:0px;
+	cursor:pointer;
+}
+.box-popup-content input.btn-get-active-code
+{
+	float:left;
+	height:26px;
+	line-height:26px;
+	width:80px;
+	font-family:tahoma;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:125px;
+	display:inline;
+	margin-top:15px;
+	background:url(../images/theme00/keeng_155.png) top left;
+	border:0px;
+	cursor:pointer;
+}
+.box-popup-content input.btn-add-info
+{
+	float:left;
+	height:26px;
+	line-height:26px;
+	font-family:tahoma;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:125px;
+	display:inline;
+	margin-top:15px;
+	background:url(../images/theme00/keeng_155.png) top left;
+	border:0px;
+	cursor:pointer;
+}
+.box-popup-content .captcha-row
+{
+	background: url("../images/theme00/keeng_94.png") no-repeat scroll left top transparent !important;
+    float: left;
+    height: 27px;
+    width: 210px;
+}
+.box-popup-content .captcha-row input
+{
+	border: 0 none;
+    color: #656565;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80px;
+}
+.box-popup-content .span1
+{
+	color:#C1017B;
+	font-weight:bold;
+}
+.box-popup-content .span2
+{
+
+	font-weight:bold;
+	color:#000000;
+}
+.box-popup-content .span3
+{
+
+		color:#C1017B;
+}
+.box-popup-content .span4
+{
+
+		color:#EB3737;
+}
+.box-popup-content p.unavailable
+{
+	color:#ED107A;
+	float:left;
+	line-height:18px;
+	width:100%;
+	font-size:13px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:30px;
+}
+.box-popup-content p.ringtone
+{
+	color: #3A3A3A;
+    float: left;
+    line-height: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 345px;
+}
+.box-popup-content p.notice
+{
+	 color: #535353;
+	  float: left;
+	  width:100%;
+	  font-size:14px;
+	  text-align:center;
+	  margin-top:30px;
+	  line-height:20px;
+}
+.box-popup-content p.notice .rbtName
+{
+	color:#ED107A;
+	font-weight:bold;
+}
+.box-popup-content p.notice .rbtPrice
+{
+	font-weight:bold;
+}
+/*popup-share*/
+
+.border-transparent-share
+{
+    background: url(../images/theme00/keeng_37.png) repeat top left;
+    padding: 5px;
+    margin: 0 auto;
+    width: 375px;
+}
+.box-popup-content-share
+{
+    background: #fff;
+    margin: 0 auto;
+	overflow:hidden;
+	border:5px solid #ffffff;
+	width:365px;
+	padding-bottom:20px;
+	color:#535353;
+	position:relative;
+}
+
+.box-popup-content-share h3.header-share {
+    color: #4E4E4E;
+    float: left;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin-top: 5px;
+    text-indent: 10px;
+    width: 100%;
+}
+.box-popup-content-share a.link-home {
+    color: #DF007B;
+    display: inline;
+	font-weight:normal;
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.box-popup-content-share input.text-share {
+    border: 1px solid #C4C4C4;
+    color: #727272;
+    display: inline;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0 10px;
+    width: 333px;
+}
+.box-popup-rows .warning
+{
+	color:#E52B92;
+	line-height:17px;
+	padding-right:5px;
+}
+.box-popup-rows .successMsg
+{
+	color:#454545;
+	line-height:17px;
+	padding-right:5px;
+}
+.box-popup-content-share ul.list-share {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+.box-popup-content-share ul.list-share li {
+    float: left;
+    padding: 5px;
+    width: 171px;
+}
+.box-popup-content-share ul.list-share li a {
+    color: #464646;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    height: 16px;
+    padding-left: 25px;
+    width: 100px;
+}
+.box-popup-content-share ul.list-share li a.face {
+    background: url("../images/theme00/keeng_35.jpg") no-repeat scroll left top transparent;
+}
+.box-popup-content-share ul.list-share li a.favo {
+    background: url("../images/theme00/keeng_38.jpg") no-repeat scroll left top transparent;
+}
+.box-popup-content-share ul.list-share li a.fark {
+    background: url("../images/theme00/keeng_36.jpg") no-repeat scroll left top transparent;
+}
+.box-popup-content-share ul.list-share li a.fash {
+    background: url("../images/theme00/keeng_39.jpg") no-repeat scroll left top transparent;
+}
+.box-popup-content-share ul.list-share li a.fashb {
+    background: url("../images/theme00/keeng_37.jpg") no-repeat scroll left top transparent;
+}
+.box-popup-content-share ul.list-share li a.fava {
+    background: url("../images/theme00/keeng_40.jpg") no-repeat scroll left top transparent;
+}
+/*error*/
+.error-popup
+{
+	color:#F00;
+	float:left;
+	margin-left: 15px;
+	display:inline;
+	line-height:18px;
+	margin-top:40px;
+}
+/*popup*/
+.sl-box1 {
+    background:url("../../images/namhh/theme18/imuzik_hn_12.jpg") no-repeat scroll 94px 8px transparent;
+    border-left: 1px solid #CCCCCC;
+    float: left;
+    height: 27px;
+    position: relative;
+    width: 210px;
+    z-index: 10000;
+}
+.sl-box1 select {
+    display:none;
+}
+.sl-box1 .sl-search span.value {
+    display: none;
+}
+.sl-box1 .sl-search {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+    width: 210px;
+}
+.sl-box1 .sl-search p {
+    color: #727272;
+    float: left;
+    font-size: 13px;
+    text-indent: 10px;
+    width: 195px;
+	height:25px;
+	padding-right:15px;
+	overflow:hidden;
+}
+.sl-box1 .sl-search ul {
+    background-color: #FBFBFB;
+    border-color: #CCCCCC;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+    left: -1px;
+    list-style: none outside none;
+    max-height: 150px;
+    overflow: auto;
+    padding: 0 3px 5px;
+    position: absolute;
+    top: 26px;
+    width: 202px;
+    z-index: 10000;
+}
+.sl-box1 .sl-search ul li {
+    cursor: pointer;
+}
+.sl-box1 .sl-search ul li:hover {
+    color:#F23073;
+}
+.sl-box1 .sl-search ul li {
+   border-bottom: 1px solid #CCCCCC;
+    color: #727272;
+    float: left;
+    font-size: 13px;
+    height: 25px;
+    margin-left: 8px;
+    overflow: hidden;
+    text-align: left;
+    text-indent: 10px;
+    width: 180px;
+	
+}
+#sl_citiesid ul li {
+    display: none;
+}
+#sl_citiesid ul li.all {
+    display: block;
+}
+.popup {
+	
+    background: url("../images/theme00/keeng_62.png") no-repeat scroll left top transparent;
+    color: #727272;
+    cursor: pointer;
+    float: right;
+    height: 27px;
+    line-height: 27px;
+    text-indent: 10px;
+    width: 237px;
+}
+/*add-playlist*/
+.add-playlist 
+{
+	float:left;
+}
+.add-playlist .box-popup-content
+{
+	float:left;
+	overflow:visible;
+}
+.box-popup-content input.vt-button,.box-popup-content a.vt-button
+{
+	background: url("../images/theme00/keeng_155.png") no-repeat scroll left top transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: tahoma;
+    font-size: 13px;
+	width:80px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 125px;
+    margin-top: 15px;
+    text-align: center;
+	cursor:pointer;
+}
+/*playlist*/
+#right-body .my-playlist .playlist-content .scroll p.null-playlist
+{
+	color: #D90072;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+/*login-fogetpass*/
+.box-forgetPass
+{
+	display:none;
+}
+.box-forgetPass p.sms-mess
+{
+    float: left;
+    margin-top: 35px;
+    text-align: center;
+    width: 340px;
+}
+.box-forgetPass p.sms-mess span
+{
+	font-weight:bold;
+}
+
+#fogetPW
+{
+	cursor:pointer;
+	color:#d70082;
+}
+
+/*input-file*/
+.box-popup-content .box-popup-rows .file-upload
+{
+		float:left;
+}
+.box-popup-content .box-popup-rows .file-upload .input-file
+{
+	 background: url("../images/theme00/keeng_94.png") no-repeat scroll left top transparent ;
+    float: left;
+    height: 27px;
+    width: 90px;
+	margin-right:10px;
+}
+.box-popup-content .box-popup-rows .file-upload .input-file input
+{
+	 background-color: transparent;
+    border: 0 none;
+    color: #656565;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    padding:5px;
+    width: 80px;
+}
+.box-popup-content .box-popup-rows .file-upload .btn-file
+{
+	background: url("../images/theme00/keeng_155.png")scroll left top transparent;
+	float:left;
+	width:80px;
+	height:26px;
+	background-color:red;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	color:#FFF;
+	font-weight:bold;
+}
+.box-popup-content .box-popup-rows .file-upload .btn-file2
+{
+	background: url("../images/theme00/keeng_155.png") scroll left top transparent;
+	float:left;
+	width:80px;
+	height:26px;
+	background-color:red;
+	text-align:center;
+	line-height:26px;
+	cursor:pointer;
+	color:#FFF;
+	font-weight:bold;
+}
+.box-popup-content .item-content
+{
+	background: url("../images/theme00/keeng_142.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 60px;
+    width: 200px;
+	padding:5px;
+}
+.box-popup-content .item-content textarea
+{
+	border: 0 none;
+    color: #656565;
+    float: left;
+    font-size: 13px;
+    height:60px;
+    width: 200px;
+	line-height:18px;
+	max-height:60px;
+	max-width:200px;
+}
+.box-popup-content #contact_keeng_submit
+{
+	margin-left: 30px;
+}
+
+.box-popup-content .item-content_song
+{
+	background: url("../images/theme00/keeng_142_1.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 150px;
+    width: 200px;
+	padding:5px;
+}
+
+.box-popup-content .item-content_song .scroll {
+    margin-top: 5px;
+    max-height: 140px;
+    overflow: auto;
+    position: relative;
+}
+.box-popup-content .item-content_song ul.list-playlist {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    width: 170px;
+}
+.box-popup-content .item-content_song ul.list-playlist li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    width: 170px;
+}
+.box-popup-content .item-content_song ul.list-playlist li a.name-song {
+    color: #000000;
+    display: inline;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    overflow: hidden;
+    width: 145px;
+    padding-left: 25px;
+}
+.box-popup-content .item-content_song ul.list-playlist li span.name-single {
+    color: #000000;
+    display: inline;
+    float: left;
+    font-family: Tahoma;
+    font-size: 13px;
+    overflow: hidden;
+    width: 145px;
+}
+.box-popup-content .item-content_song ul.list-playlist li.playing a.name-song {
+    color: #D90072;
+    font-weight: bold;
+}
+.box-popup-content .item-content_song ul.list-playlist li a {
+}
+.box-popup-content .item-content_song ul.list-playlist li a.name-single {
+    color: #6C6C6C;
+    display: inline;
+    float: left;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-left: 10px;
+    width: 115px;
+}
+.box-popup-content .item-content_song ul.list-playlist li {
+    position: relative;
+}
+.box-popup-content .item-content_song ul.list-playlist li a.icon-delete {
+    background: url("../images/theme00/keeng_48.gif") no-repeat scroll left top transparent;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 18px;
+}
+.box-popup-content .item-content_song ul.list-playlist li a.icon-delete:hover {
+    background: url("../images/theme00/keeng_48_b.gif") no-repeat scroll left top transparent;
+}
+.box-popup-content .item-content_song ul.list-playlist li a.delete-song {
+    background: url("../images/theme00/keeng_48.gif") no-repeat scroll left top transparent;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 18px;
+}
+.box-popup-content .item-content_song ul.list-playlist li a.delete-song:hover {
+    background: url("../images/theme00/keeng_48_b.gif") no-repeat scroll left top transparent;
+}
+.box-popup-content .item-content_song ul.list-playlist li p.name-single {
+    color: #6C6C6C;
+    display: inline;
+    float: left;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 100px;
+}
+.box-popup-content .item-content_song ul.list-playlist li p.name-single a {
+    color: #6C6C6C;
+    font-size: 11px;
+}
+.box-popup-content .item-content_song .btn-music-box {
+    background: url("../images/theme00/keeng_42.png") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 80px;
+}
+/*notice*/
+p.notice_sms
+{
+	color: #676767;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding-left: 26px;
+    padding-top: 10px;
+}

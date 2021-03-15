@@ -1,0 +1,47 @@
+.dm_zone {
+  float: left;
+  min-height: 5px;
+  width: 100%;
+}
+
+/* Begin ClearFix  */
+.vtClearfix div:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.vtClearfix div.dm_widget_inner:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.vtClearfix div.dm_zones:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+.vtClearfix {
+	display: inline-block;
+}
+
+
+html[xmlns] .vtClearfix {
+	display: block;
+}
+
+* html .vtClearfix {
+	height: 1%;
+}
